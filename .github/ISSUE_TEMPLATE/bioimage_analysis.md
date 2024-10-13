@@ -6,15 +6,13 @@ labels: image-analysis
 assignees: haesleinhuepf
 ---
 
-## Bio-Image Analysis Support Request
+## Analysis Goal (What should be done / analysed?)
 
-### Image Upload
+
+## Image Upload
 📎 **Drag & drop your microscopy image here** (JPG, PNG, GIF, e.g. 512x512 pixels, 2D only).
 
-### Analysis Goal
-- What do you want to analyze (e.g., count cells, measure structures, segment regions)?
-
-### Python Tools
+## Python Tools
 - List of Python libraries we should use for answering this:
   - numpy
   - scikit-image
@@ -25,16 +23,18 @@ assignees: haesleinhuepf
   - seaborn
   - scipy
 
-
 **Note:** Your images and the text you enter here may be sent to [OpenAI](https://openai.com/)'s online service where we use a large language model to answer your request. 
 Do not upload any data you cannot share openly. Also do not enter any private or secret information. By submitting this Github issue, you confirm that you understand these conditions.
 
 Once submitted, @haesleinhuepf will review and consult [git-bob, an AI-assistant](https://github.com/haesleinhuepf/git-bob) for bio-image analysis suggestions. 
 
-
 <details>
     <summary>Detailed instructions for bio-image analysis using Python (feel free to modify)</summary>
-#### Viewing images using stackview
+## Detailed Python Bio-image Analysis instructions
+
+If the following tasks are requested, we can adapt the code corresponding snippets:
+
+### Viewing images using stackview
 
 When you use stackview, you always start by importing the library: `import stackview`.
       
@@ -49,29 +49,17 @@ When you use stackview, you always start by importing the library: `import stack
   
 * Display an image stored in a variable `image` (this also works with label images). Prefer stackview.insight over matplotlib.pyplot.imshow!
   stackview.insight(image)
-  
-* Build a user interface with sliders for numeric parameters
-  stackview.interact(func, image)
-  
-* Display an image with a slider and label showing the mouse position and intensity.
-  stackview.picker(image)
-  
-* Display an image with a slider to navigate through a stack.
-  stackview.slice(image)
-  
-* Allows switching between multiple images and displaying them with a slider.
-  stackview.switch(images:list)
 
-#### Processing images using the napari-simpleitk-image-processing (nsitk) Python library. 
+* Display an image as a label image explicitly.
+  stackview.imshow(image, labels=True)
+
+### Processing images using the napari-simpleitk-image-processing (nsitk) Python library. 
 
 When you use nsitk, you always start by importing the library: `import napari_simpleitk_image_processing as nsitk`.
 When asked for specific tasks, you can adapt one of the following code snippets:
   
 * Apply a median filter to an image to remove noise while preserving edges.
   nsitk.median_filter(image, radius_x=2, radius_y=2)
-  
-* Apply a Gaussian blur to smooth the image.
-  nsitk.gaussian_blur(image, variance_x=1.0, variance_y=1.0)
   
 * Applies Otsu's threshold selection method to an intensity image and returns a binary image (also works with intermodes, kittler_illingworth, li, moments, renyi_entropy, shanbhag, yen, isodata, triangle, huang and maximum_entropy instead of otsu).
   nsitk.threshold_otsu(image)
@@ -102,10 +90,7 @@ When asked for specific tasks, you can adapt one of the following code snippets:
   
 * Labels objects in a binary image and can split object that are touching..
   nsitk.touching_objects_labeling(binary_image)
-  
-* Applies a bilateral filter to smooth the image.
-  nsitk.bilateral_filter(image, radius=10.0)
-  
+
 * Applies the Laplacian of Gaussian filter to find edges in an image.
   nsitk.laplacian_of_gaussian_filter(image, sigma=1.0)
   
@@ -118,10 +103,10 @@ When asked for specific tasks, you can adapt one of the following code snippets:
 * Computes basic statistics for labeled object regions in an image.
   nsitk.label_statistics(image, label_image, size=True, intensity=True, shape=False)
   
-* Computes the a map of an label image where the pixel intensity corresponds to the number of pixels in the given labeled object (analogously work elongation_map, feret_diameter_map, roundness_map).
+* Computes a map from a label image where the pixel intensity corresponds to the number of pixels in the given labeled object (analogously work elongation_map, feret_diameter_map, roundness_map).
   nsitk.pixel_count_map(label_image)
   
-#### Processing images using napari-segment-blobs-and-things-with-membranes
+### Processing images using napari-segment-blobs-and-things-with-membranes (nsbatwm)
 
 If you use this plugin, you need to import it like this: `import napari_segment_blobs_and_things_with_membranes as nsbatwm`. 
 You can then use it for various purposes:
@@ -157,7 +142,7 @@ You can then use it for various purposes:
   nsbatwm.threshold_otsu(blobs)
 
 * Split touching objects in a binary image
-  nsbatwm.split_touching_objects(binary, sigma=3.5) * 1
+  nsbatwm.split_touching_objects(binary, sigma=3.5)
 
 * Identify individual objects in a binary image using Connected Component labeling
   nsbatwm.connected_component_labeling(binary)
@@ -180,12 +165,12 @@ You can then use it for various purposes:
 * Skeletonize labels
   nsbatwm.skeletonize(labels)
 
-#### Working with Pandas DataFrames
+### Working with Pandas DataFrames
 
 In case a pandas DataFrame, e.g. `df` is the result of a code block, just write `df.head()`
 by the end so that the user can see the intermediate result.
 
-#### Processing images with scikit-image
+### Processing images with scikit-image (skimage)
   
 * Load an image file from disc and store it in a variable:
   from skimage.io import imread
@@ -195,9 +180,9 @@ by the end so that the user can see the intermediate result.
   from skimage.segmentation import expand_labels
   expanded_labels = expand_labels(label_image, distance=10)
   
-* Turn a label image into an RGB image:
+* Turn a label image into an RGB image, e.g. for saving as png:
   from skimage import color
-  rgb_image = color.label2rgb(label_image, bg_label=0)
+  rgb_image = color.label2rgb(label_image, bg_label=0).astype("unit8")
   
 * Measure properties of labels with respect to an image works like this:
   import pandas as pd
@@ -205,4 +190,5 @@ by the end so that the user can see the intermediate result.
   properties = ['label', 'area', 'mean_intensity'] # add more properties if needed
   measurements = regionprops_table(label_image, intensity_image=image, properties=properties)
   df = pd.DataFrame(measurements)
+
 </details>
