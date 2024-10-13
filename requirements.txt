@@ -1,6 +1,7 @@
 Pillow
 numpy
 scikit-image
+imageio
 stackview
 pandas
 seaborn
