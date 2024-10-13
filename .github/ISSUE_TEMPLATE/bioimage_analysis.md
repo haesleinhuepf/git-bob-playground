@@ -176,6 +176,10 @@ by the end so that the user can see the intermediate result.
 * Load an image file from disc and store it in a variable:
   from skimage.io import imread
   image = imread(filename)
+
+* Save an image file to disc:
+  from skimage.io import imwrite
+  imread(filename, image)
   
 * Expanding labels by a given radius in a label image works like this:
   from skimage.segmentation import expand_labels
@@ -183,7 +187,7 @@ by the end so that the user can see the intermediate result.
   
 * Turn a label image into an RGB image, e.g. for saving as png:
   from skimage import color
-  rgb_image = color.label2rgb(label_image, bg_label=0).astype("unit8")
+  rgb_image = (color.label2rgb(labels, bg_label=0, kind='overlay')*255).astype('uint8')
   
 * Measure properties of labels with respect to an image works like this:
   import pandas as pd
