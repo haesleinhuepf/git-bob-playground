@@ -1,0 +1,10 @@
+Pillow
+numpy
+scikit-image
+stackview
+pandas
+seaborn
+matplotlib
+scipy
+napari-segment-blobs-and-things-with-membranes
+napari-simpleitk-image-processing
