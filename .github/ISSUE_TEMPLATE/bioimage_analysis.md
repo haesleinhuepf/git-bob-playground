@@ -9,7 +9,7 @@ assignees: haesleinhuepf
 ## Bio-Image Analysis Support Request
 
 ### Image Upload
-📎 **Drag & drop your microscopy image here** (JPG, PNG, GIF, 512x512 or 1024x1024, 2D only).
+📎 **Drag & drop your microscopy image here** (JPG, PNG, GIF, e.g. 512x512 pixels, 2D only).
 
 ### Analysis Goal
 - What do you want to analyze (e.g., count cells, measure structures, segment regions)?
@@ -24,6 +24,13 @@ assignees: haesleinhuepf
   - pandas
   - seaborn
   - scipy
+
+
+**Note:** Your images and the text you enter here may be sent to [OpenAI](https://openai.com/)'s online service where we use a large language model to answer your request. 
+Do not upload any data you cannot share openly. Also do not enter any private or secret information. By submitting this Github issue, you confirm that you understand these conditions.
+
+Once submitted, @haesleinhuepf will review and consult [git-bob, an AI-assistant](https://github.com/haesleinhuepf/git-bob) for bio-image analysis suggestions. 
+
 
 <details>
     <summary>Detailed instructions for bio-image analysis using Python (feel free to modify)</summary>
@@ -199,8 +206,3 @@ by the end so that the user can see the intermediate result.
   measurements = regionprops_table(label_image, intensity_image=image, properties=properties)
   df = pd.DataFrame(measurements)
 </details>
-
-**Note:** Your images and the text you enter here may be sent to [OpenAI](https://openai.com/)'s online service where we use a large language model to answer your request. 
-Do not upload any data you cannot share openly. Also do not enter any private or secret information. By submitting this Github issue, you confirm that you understand these conditions.
-
-Once submitted, @haesleinhuepf will review and consult [git-bob, an AI-assistant](https://github.com/haesleinhuepf/git-bob) for bio-image analysis suggestions. 
