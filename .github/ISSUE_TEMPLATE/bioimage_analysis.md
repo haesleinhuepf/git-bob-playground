@@ -30,6 +30,7 @@ Once submitted, @haesleinhuepf will review and consult [git-bob, an AI-assistant
 
 <details>
     <summary>Detailed instructions for bio-image analysis using Python (feel free to modify)</summary>
+
 ## Detailed Python Bio-image Analysis instructions
 
 If the following tasks are requested, we can adapt the code corresponding snippets:
