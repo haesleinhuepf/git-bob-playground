@@ -1,7 +1,7 @@
 ---
 name: BioImage Analysis
 about: Submit a microscopy image for AI-assisted analysis
-title: "[Analysis Request]: "
+title: "[BioImage Analysis]: "
 labels: image-analysis
 assignees: haesleinhuepf
 ---
