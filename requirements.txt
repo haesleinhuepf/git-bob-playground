@@ -8,3 +8,5 @@ matplotlib
 scipy
 napari-segment-blobs-and-things-with-membranes
 napari-simpleitk-image-processing
+opencv-python
+
