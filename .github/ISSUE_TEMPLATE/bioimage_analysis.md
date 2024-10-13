@@ -183,7 +183,7 @@ by the end so that the user can see the intermediate result.
   
 * Turn a label image into an RGB image, e.g. for saving as png:
   from skimage import color
-  rgb_image = color.label2rgb(label_image, bg_label=0).astype("unit8")
+  rgb_image = color.label2rgb(label_image, bg_label=0).astype("uint8")
   
 * Measure properties of labels with respect to an image works like this:
   import pandas as pd
