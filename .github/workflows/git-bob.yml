@@ -58,6 +58,8 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
+        git fetch --all
+        git checkout -b git-bob-mod-3uhijLLAmX origin/git-bob-mod-3uhijLLAmX
         pip install -e .
         cd ..
 
