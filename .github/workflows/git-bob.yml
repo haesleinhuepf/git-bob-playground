@@ -81,7 +81,7 @@ jobs:
           ## Python specific instructions
           
           You preferably use the python libraries mentioned in the discussion.
-          Unless told otherwise, you write code in Python Jupyter Notebooks.
+          Unless told otherwise, you will create a Python Jupyter Notebook containing the code we discussed.
           If you create images, show the results and save them in variables for later reuse.
                     
           ## General instructions
