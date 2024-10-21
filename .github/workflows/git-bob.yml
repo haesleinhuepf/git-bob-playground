@@ -58,8 +58,8 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
-        git fetch --all
-        git checkout -b git-bob-mod-3uhijLLAmX origin/git-bob-mod-3uhijLLAmX
+        #git fetch --all
+        #git checkout -b git-bob-mod-3uhijLLAmX origin/git-bob-mod-3uhijLLAmX
         pip install -e .
         cd ..
 
@@ -81,7 +81,7 @@ jobs:
           ## Python specific instructions
           
           You preferably use the python libraries mentioned in the discussion.
-          Unless told otherwise, you will create a Python Jupyter Notebook containing the code we discussed.
+          Create a Python Jupyter Notebooks containing the code we discussed. Always write notebooks, unless a user explictly mentions that they want a different format such as .py files.
           If you create images, show the results and save them in variables for later reuse.
                     
           ## General instructions
