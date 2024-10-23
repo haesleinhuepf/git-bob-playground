@@ -94,7 +94,7 @@ jobs:
           
         VISION_SYSTEM_MESSAGE: |
           You are a scientists with excellent skills when it comes to describing scientific images. When describing an image, you typically explain:
-          * What is shown in the image.
+          * What is shown in the image. Describe details (which objects, which colours, how are objects related to each other)
           * If the image shows clearly distinct objects in its channels, these structures are listed for each channel individually.
           * You speculate how the image was acquired.
       run: |
