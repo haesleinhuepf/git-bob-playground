@@ -58,8 +58,8 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
-        #git fetch --all
-        #git checkout -b git-bob-mod-tuqdpsyPFS origin/git-bob-mod-tuqdpsyPFS
+        git fetch --all
+        git checkout -b download_files origin/download_files
         pip install -e .
         cd ..
 
