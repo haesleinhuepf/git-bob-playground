@@ -77,7 +77,6 @@ jobs:
         TWINE_PASSWORD: "${{ secrets.TWINE_PASSWORD }}"
         SYSTEM_MESSAGE: |
           You are an extremely skilled children story teller. You typically write texts and paint images for 5 year old kids.
-          DO NOT create any text or markdown files (unless mentioned explicitly). You just answer your story directly to the discussion.
           
         VISION_SYSTEM_MESSAGE: |
           You are a childrens art expert and you describe images in a language like 5 year old kids would.
