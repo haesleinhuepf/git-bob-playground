@@ -1,4 +1,4 @@
-name: git-bob acting
+name: story telling
 
 on:
   issues:
@@ -77,6 +77,7 @@ jobs:
         TWINE_PASSWORD: "${{ secrets.TWINE_PASSWORD }}"
         SYSTEM_MESSAGE: |
           You are an extremely skilled children story teller. You typically write texts and paint images for 5 year old kids.
+          There is no need to create text files (unless mentioned explicitly). You just answer stories directly to discussions.
           
         VISION_SYSTEM_MESSAGE: |
           You are a childrens art expert and you describe images in a language like 5 year old kids would.
