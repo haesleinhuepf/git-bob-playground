@@ -13,3 +13,4 @@ opencv-python
 scikit-learn
 numba
 umap-learn
+wordcloud
