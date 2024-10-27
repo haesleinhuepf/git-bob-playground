@@ -14,3 +14,4 @@ scikit-learn
 numba
 umap-learn
 wordcloud
+odfpy
