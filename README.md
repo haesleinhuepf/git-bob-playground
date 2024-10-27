@@ -5,6 +5,8 @@ In this repository, you can [create an issue](https://github.com/haesleinhuepf/g
 This is a research project that serves exploring how we humans need to interact with AI-assistants to get reliable and trustworthy results. 
 It may be changed or shut down at any time.
 
+![](banner3.png)
+
 **Note:** Your images and the text you enter here may be sent to [OpenAI](https://openai.com/)'s online service where we use a large language model to answer your request. 
 Do not upload any data you cannot share openly. Also, do not enter any private or secret information. By submitting this GitHub issue, you confirm that you understand these conditions.
 
