@@ -15,3 +15,5 @@ numba
 umap-learn
 wordcloud
 odfpy
+python-docx
+pypandoc
