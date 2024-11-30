@@ -3,7 +3,6 @@ name: BioImage Analysis
 about: Submit a microscopy image for AI-assisted analysis
 title: "[BioImage Analysis]: "
 labels: image-analysis
-assignees: haesleinhuepf
 ---
 
 ## Analysis Goal (What should be done / analysed?)

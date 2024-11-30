@@ -3,7 +3,6 @@ name: Statistics and plotting question
 about: Submit a question to the AI-assistant
 title: "[Statistics question]: "
 labels: statistics, plotting
-assignees: haesleinhuepf
 ---
 
 ## Question:

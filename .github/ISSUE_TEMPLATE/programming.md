@@ -3,7 +3,6 @@ name: Programming question
 about: Submit a programming questions to the AI-assistant
 title: "[Programming question]: "
 labels: python programming
-assignees: haesleinhuepf
 ---
 
 ## Question:

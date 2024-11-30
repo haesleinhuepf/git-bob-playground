@@ -3,7 +3,6 @@ name: Story Telling
 about: Writing a story for kids
 title: "[Story Telling]: "
 labels: story-telling
-assignees: haesleinhuepf
 ---
 
 ## What should the story be about?
