@@ -16,3 +16,4 @@ umap-learn
 wordcloud
 odfpy
 scholarly
+gxformat2
