@@ -1,0 +1,52 @@
+{
+    "a_galaxy_workflow": "true",
+    "format-version": "0.1",
+    "name": "gaussian_blur_threshold",
+    "steps": {
+        "0": {
+            "id": 0,
+            "type": "data_input",
+            "inputs": [
+                {
+                    "name": "Input Image"
+                }
+            ],
+            "position": {
+                "left": 0,
+                "top": 0
+            }
+        },
+        "1": {
+            "id": 1,
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/imgteam/2d_simple_filter/ip_filter_standard/1.12.0+galaxy1",
+            "type": "tool",
+            "input_connections": {
+                "input": {
+                    "id": 0,
+                    "output_name": "output"
+                }
+            },
+            "tool_state": "{\"filter\": {\"filter_type\": \"gaussian\", \"size\": \"3.0\"}}",
+            "position": {
+                "left": 300,
+                "top": 0
+            }
+        },
+        "2": {
+            "id": 2,
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/imgteam/2d_auto_threshold/ip_threshold/0.18.1+galaxy3",
+            "type": "tool",
+            "input_connections": {
+                "input": {
+                    "id": 1,
+                    "output_name": "output"
+                }
+            },
+            "tool_state": "{\"th_method\": {\"method_id\": \"otsu\"}}",
+            "position": {
+                "left": 600,
+                "top": 0
+            }
+        }
+    }
+}
