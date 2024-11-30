@@ -58,8 +58,8 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
-        git fetch --all
-        git checkout -b explicit_reviews origin/explicit_reviews
+        #git fetch --all
+        #git checkout -b explicit_reviews origin/explicit_reviews
         pip install -e .
         cd ..
 
