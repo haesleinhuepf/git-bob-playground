@@ -17,3 +17,4 @@ wordcloud
 odfpy
 scholarly
 gxformat2
+planemo
