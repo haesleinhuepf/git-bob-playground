@@ -1,0 +1,2 @@
+Distances between pairs: [2, 1, 0, 1, 2, 5]
+Total distance: 11
