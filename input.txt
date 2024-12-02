@@ -1,30 +1,4 @@
-I'll help implement the solution with the provided data. Instead of creating an input.txt file, I'll directly solve it with the given lists:
-
-```python
-# lists are defined in two columns: left_list and right_list
-def calculate_distance(left_list, right_list):
-    # Sort both lists
-    left_sorted = sorted(left_list)
-    right_sorted = sorted(right_list)
-    
-    # Calculate total distance
-    total_distance = sum(abs(l - r) for l, r in zip(left_sorted, right_sorted))
-    return total_distance
-
-# Parse the input data
-data = """39687   54930
+39687   54930
 86219   31559
-[... rest of the provided data ...]"""
-
-# Convert input to lists
-left_list = []
-right_list = []
-for line in data.split('\n'):
-    if line.strip():
-        left, right = map(int, line.split())
-        left_list.append(left)
-        right_list.append(right)
-
-# Calculate and print result
-result = calculate_distance(left_list, right_list)
-print(f"The total distance between the lists is: {result}")
+10029   95431
+85400   15291
