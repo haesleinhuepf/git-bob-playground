@@ -18,3 +18,5 @@ odfpy
 scholarly
 gxformat2
 planemo
+scholarly 
+crossrefapi
