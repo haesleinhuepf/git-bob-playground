@@ -58,10 +58,11 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
-        git fetch --all
-        git checkout -b git-bob-mod-tK9xNXUchM origin/git-bob-mod-tK9xNXUchM
+        #git fetch --all
+        #git checkout -b explicit_reviews origin/explicit_reviews
         pip install -e .
         cd ..
+
 
     - name: Run git-bob
       env:
