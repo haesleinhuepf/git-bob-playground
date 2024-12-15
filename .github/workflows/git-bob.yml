@@ -58,8 +58,8 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
-        git fetch --all
-        git checkout -b docx_support origin/docx_support
+        #git fetch --all
+        #git checkout -b docx_support origin/docx_support
         pip install -e .
         cd ..
 
