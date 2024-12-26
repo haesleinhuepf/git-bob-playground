@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Tree trunk -->
+    <rect x="175" y="400" width="50" height="80" fill="#8B4513"/>
+    
+    <!-- Tree layers -->
+    <path d="M200 50 L50 400 L350 400 Z" fill="#006400"/>
+    <path d="M200 100 L80 350 L320 350 Z" fill="#008000"/>
+    <path d="M200 150 L110 300 L290 300 Z" fill="#228B22"/>
+    
+    <!-- Decorations -->
+    <circle cx="200" cy="80" r="20" fill="yellow"/> <!-- Star -->
+    <circle cx="150" cy="200" r="10" fill="red"/>
+    <circle cx="250" cy="200" r="10" fill="blue"/>
+    <circle cx="180" cy="300" r="10" fill="gold"/>
+    <circle cx="220" cy="300" r="10" fill="silver"/>
+    <circle cx="140" cy="350" r="10" fill="purple"/>
+    <circle cx="260" cy="350" r="10" fill="pink"/>
+</svg>
