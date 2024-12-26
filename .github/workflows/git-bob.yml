@@ -58,8 +58,8 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
-        #git fetch --all
-        #git checkout -b auto-fix-errors-in-notebooks origin/auto-fix-errors-in-notebooks
+        git fetch --all
+        git checkout -b git-bob-mod-cqM3Siz1wv origin/git-bob-mod-cqM3Siz1wv
         pip install -e .
         cd ..
 
