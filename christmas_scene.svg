@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#87CEEB"/>
+    <rect width="800" height="200" y="400" fill="white"/>
+    
+    <!-- Base Christmas Tree -->
+    <g id="tree" transform="translate(100,350)">
+        <path d="M-30,100 L30,100 L0,0 Z" fill="darkgreen"/>
+        <path d="M-25,70 L25,70 L0,-10 Z" fill="forestgreen"/>
+        <path d="M-20,40 L20,40 L0,-20 Z" fill="green"/>
+        <rect x="-5" y="100" width="10" height="20" fill="brown"/>
+        <circle cx="0" cy="20" r="3" fill="red"/>
+        <circle cx="-15" cy="60" r="3" fill="gold"/>
+        <circle cx="15" cy="80" r="3" fill="red"/>
+        <polygon points="0,-25 5,-15 -5,-15" fill="yellow"/>
+    </g>
+    
+    <!-- Multiple Trees -->
+    <use href="#tree" transform="translate(200,380) scale(1.2)"/>
+    <use href="#tree" transform="translate(300,360) scale(0.9)"/>
+    <use href="#tree" transform="translate(400,370) scale(1.1)"/>
+    <use href="#tree" transform="translate(500,350) scale(1)"/>
+    <use href="#tree" transform="translate(600,380) scale(1.2)"/>
+    <use href="#tree" transform="translate(150,420) scale(0.8)"/>
+    <use href="#tree" transform="translate(250,410) scale(0.7)"/>
+    <use href="#tree" transform="translate(350,400) scale(0.9)"/>
+    <use href="#tree" transform="translate(450,420) scale(0.8)"/>
+    <use href="#tree" transform="translate(550,410) scale(0.7)"/>
+    
+    <!-- Snowman -->
+    <g transform="translate(700,450)">
+        <circle cx="0" cy="80" r="40" fill="white" stroke="gray"/>
+        <circle cx="0" cy="20" r="30" fill="white" stroke="gray"/>
+        <circle cx="0" cy="-25" r="20" fill="white" stroke="gray"/>
+        <circle cx="-8" cy="-30" r="3" fill="black"/>
+        <circle cx="8" cy="-30" r="3" fill="black"/>
+        <path d="M0,-20 L0,-15 L8,-18" stroke="orange" stroke-width="3"/>
+        <path d="M-8,-20 Q0,-15 8,-20" stroke="black" fill="none"/>
+        <path d="M-15,-25 L-40,-15" stroke="brown" stroke-width="4"/>
+        <path d="M15,-25 L40,-15" stroke="brown" stroke-width="4"/>
+    </g>
+</svg>
