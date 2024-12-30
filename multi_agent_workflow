@@ -1,0 +1,13 @@
+digraph "Multi-Agent Workflow" {
+	rankdir=LR
+	scheduler [label="Scheduler
+Task Manager" fillcolor=lightblue shape=box style=filled]
+	assistant [label="Research Assistant
+Reads & Writes Papers" fillcolor=lightgreen shape=oval style=filled]
+	reviewer [label="Reviewer
+Provides Feedback" fillcolor=lightyellow shape=oval style=filled]
+	scheduler -> assistant [label="Assign 5 papers"]
+	assistant -> reviewer [label="Submit drafts"]
+	reviewer -> assistant [label="Review feedback"]
+	assistant -> scheduler [label="Final papers"]
+}
