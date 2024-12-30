@@ -1,0 +1,24 @@
+{
+  "title": "A Hitchhiker`s Guide through the Bio-image Analysis Software Universe",
+  "authors": [
+    "Robert Haase",
+    "Elnaz Fazeli",
+    "David Legland",
+    "Michael Doube",
+    "Si\u00e2n Culley",
+    "Ilya Belevich",
+    "Eija Jokitalo",
+    "Martin Schorb",
+    "Anna Klemm",
+    "Christian Tischer"
+  ],
+  "published": "2022-04-15 17:10:09+00:00",
+  "summary": "Modern research in the life sciences is unthinkable without computational\nmethods for extracting, quantifying and visualizing information derived from\nbiological microscopy imaging data. In the past decade, we observed a dramatic\nincrease in available software packages for these purposes. As it is\nincreasingly difficult to keep track of the number of available image analysis\nplatforms, tool collections, components and emerging technologies, we provide a\nconservative overview of software we use in daily routine and give insights\ninto emerging new tools. We give guidance on which aspects to consider when\nchoosing the right platform, including aspects such as image data type, skills\nof the team, infrastructure and community at the institute and availability of\ntime and budget.",
+  "doi": null,
+  "primary_category": "q-bio.QM",
+  "categories": [
+    "q-bio.QM",
+    "eess.IV"
+  ],
+  "pdf_url": "http://arxiv.org/pdf/2204.07547v1"
+}
