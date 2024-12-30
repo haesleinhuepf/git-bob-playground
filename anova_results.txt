@@ -1,0 +1,3 @@
+ANOVA results:
+F-statistic: 1.0186
+p-value: 0.4314
