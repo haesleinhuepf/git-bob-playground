@@ -1,0 +1,796 @@
+title,authors,abstract,published,url
+Spherical functions and Stolarski's invariance principle,Maksim Skriganov,"In the previous paper [25], Stolarsky's invariance principle, known for point
+distributions on the Euclidean spheres [27], has been extended to the real,
+complex, and quaternionic projective spaces and the octonionic projective
+plane. Geometric features of these spaces as well as their models in terms of
+Jordan algebras have been used very essentially in the proof. In the present
+paper, we give a new pure analytic proof of the extended Stolarsky's invariance
+principle, relying on the theory of spherical functions on compact symmetric
+Riemannian manifolds of rank one.",2022-12-30 23:28:41+00:00,http://arxiv.org/pdf/2301.00071v2
+A stabilized local integral method using RBFs for the Helmholtz equation with applications to wave chaos and dielectric microresonators,"L. Ponzellini Marinelli, L. Raviola","Most problems in electrodynamics do not have an analytical solution so much
+effort has been put in the development of numerical schemes, such as the
+finite-difference method, volume element methods, boundary element methods, and
+related methods based on boundary integral equations. In this paper we
+introduce a local integral boundary domain method with a stable calculation
+based on Radial Basis Functions (RBF) approximations, in the context of wave
+chaos in acoustics and dielectric microresonator problems. RBFs have been
+gaining popularity recently for solving partial differential equations
+numerically, becoming an extremely effective tool for interpolation on
+scattered node sets in several dimensions with high-order accuracy and
+flexibility for nontrivial geometries. One key issue with infinitely smooth
+RBFs is the choice of a suitable value for the shape parameter which controls
+the flatness of the function. It is observed that best accuracy is often
+achieved when the shape parameter tends to zero. However, the system of
+discrete equations obtained from the interpolation matrices becomes
+ill-conditioned, which imposes severe limits to the attainable accuracy. A few
+numerical algorithms have been presented that are able to stably compute an
+interpolant, even in the increasingly flat basis function limit. We present the
+recently developed Stabilized Local Boundary Domain Integral Method in the
+context of boundary integral methods that improves the solution of the
+Helmholtz equation with RBFs. Numerical results for small shape parameters that
+stabilize the error are shown. Accuracy and comparison with other methods are
+also discussed for various case studies. Applications in wave chaos, acoustics
+and dielectric microresonators are discussed to showcase the virtues of the
+method, which is computationally efficient and well suited to the kind of
+geometries with arbitrary shape domains.",2022-12-30 22:59:45+00:00,http://arxiv.org/pdf/2301.00069v1
+The Sticky Lévy Process as a solution to a Time Change Equation,"Miriam Ramírez, Gerónimo Uribe Bravo","Stochastic Differential Equations (SDEs) were originally devised by It\^o to
+provide a pathwise construction of diffusion processes. A less explored
+approach to represent them is through Time Change Equations (TCEs) as put forth
+by Doeblin. TCEs are a generalization of Ordinary Differential Equations driven
+by random functions. We present a simple example where TCEs have some advantage
+over SDEs.
+  We represent sticky L\'evy processes as the unique solution to a TCE driven
+by a L\'evy process with no negative jumps. The solution is adapted to the
+time-changed filtration of the L\'evy process driving the equation. This is in
+contrast to the SDE describing sticky Brownian motion, which is known to have
+no adapted solutions as first proved by Chitashvili. A known consequence of
+such non-adaptability for SDEs is that certain natural approximations to the
+solution of the corresponding SDE do not converge in probability, even though
+they do converge weakly. Instead, we provide strong approximation schemes for
+the solution of our TCE (by adapting Euler's method for ODEs), whenever the
+driving L\'evy process is strongly approximated.",2022-12-30 22:00:58+00:00,http://arxiv.org/pdf/2301.00063v2
+A robust Bayesian latent position approach for community detection in networks with continuous attributes,"Zhumengmeng Jin, Juan Sosa, Shangchen Song, Brenda Betancourt","The increasing prevalence of multiplex networks has spurred a critical need
+to take into account potential dependencies across different layers, especially
+when the goal is community detection, which is a fundamental learning task in
+network analysis. We propose a full Bayesian mixture model for community
+detection in both single-layer and multi-layer networks. A key feature of our
+model is the joint modeling of the nodal attributes that often come with the
+network data as a spatial process over the latent space. In addition, our model
+for multi-layer networks allows layers to have different strengths of
+dependency in the unique latent position structure and assumes that the
+probability of a relation between two actors (in a layer) depends on the
+distances between their latent positions (multiplied by a layer-specific
+factor) and the difference between their nodal attributes. Under our prior
+specifications, the actors' positions in the latent space arise from a finite
+mixture of Gaussian distributions, each corresponding to a cluster. Simulated
+examples show that our model outperforms existing benchmark models and exhibits
+significantly greater robustness when handling datasets with missing values.
+The model is also applied to a real-world three-layer network of employees in a
+law firm.",2022-12-30 21:06:00+00:00,http://arxiv.org/pdf/2301.00055v3
+Learning from Guided Play: Improving Exploration for Adversarial Imitation Learning with Simple Auxiliary Tasks,"Trevor Ablett, Bryan Chan, Jonathan Kelly","Adversarial imitation learning (AIL) has become a popular alternative to
+supervised imitation learning that reduces the distribution shift suffered by
+the latter. However, AIL requires effective exploration during an online
+reinforcement learning phase. In this work, we show that the standard, naive
+approach to exploration can manifest as a suboptimal local maximum if a policy
+learned with AIL sufficiently matches the expert distribution without fully
+learning the desired task. This can be particularly catastrophic for
+manipulation tasks, where the difference between an expert and a non-expert
+state-action pair is often subtle. We present Learning from Guided Play (LfGP),
+a framework in which we leverage expert demonstrations of multiple exploratory,
+auxiliary tasks in addition to a main task. The addition of these auxiliary
+tasks forces the agent to explore states and actions that standard AIL may
+learn to ignore. Additionally, this particular formulation allows for the
+reusability of expert data between main tasks. Our experimental results in a
+challenging multitask robotic manipulation domain indicate that LfGP
+significantly outperforms both AIL and behaviour cloning, while also being more
+expert sample efficient than these baselines. To explain this performance gap,
+we provide further analysis of a toy problem that highlights the coupling
+between a local maximum and poor exploration, and also visualize the
+differences between the learned models from AIL and LfGP.",2022-12-30 20:38:54+00:00,http://arxiv.org/pdf/2301.00051v2
+Multi-Finger Haptics: Analysis of Human Hand Grasp towards a Tripod Three-Finger Haptic Grasp model,Jose James,"Grasping is an incredible ability of animals using their arms and limbs in
+their daily life. The human hand is an especially astonishing multi-fingered
+tool for precise grasping, which helped humans to develop the modern world. The
+implementation of the human grasp to virtual reality and telerobotics is always
+interesting and challenging at the same time. In this work, authors surveyed,
+studied, and analyzed the human hand-grasping behavior for the possibilities of
+haptic grasping in the virtual and remote environment. This work is focused on
+the motion and force analysis of fingers in human hand grasping scenarios and
+the paper describes the transition of the human hand grasping towards a tripod
+haptic grasp model for effective interaction in virtual reality.",2022-12-30 20:37:16+00:00,http://arxiv.org/pdf/2301.00049v1
+Robustness of Variational Quantum Algorithms against stochastic parameter perturbation,"Daniil Rabinovich, Ernesto Campos, Soumik Adhikary, Ekaterina Pankovets, Dmitry Vinichenko, Jacob Biamonte","Variational quantum algorithms are tailored to perform within the constraints
+of current quantum devices, yet they are limited by performance-degrading
+errors. In this study, we consider a noise model that reflects realistic gate
+errors inherent to variational quantum algorithms. We investigate the
+decoherence of a variationally prepared quantum state due to this noise model,
+which causes a deviation from the energy estimation in the variational
+approach. By performing a perturbative analysis of optimized circuits, we
+determine the noise threshold at which the criteria set by the stability lemma
+is met. We assess our findings against the variational quantum eigensolver and
+quantum approximate optimization algorithm for various problems with up to 14
+qubits. Moreover, we show that certain gate errors have a significantly smaller
+impact on the coherence of the state, allowing us to reduce the execution time
+without compromising performance.",2022-12-30 20:36:29+00:00,http://arxiv.org/pdf/2301.00048v3
+An Analysis of Honeypots and their Impact as a Cyber Deception Tactic,"Daniel Zielinski, Hisham A. Kholidy","This paper explores deploying a cyber honeypot system to learn how cyber
+defenders can use a honeypot system as a deception mechanism to gather
+intelligence. Defenders can gather intelligence about an attacker such as the
+autonomous system that the IP of the attacker is allocated from, the way the
+attacker is trying to penetrate the system, what different types of attacks are
+being used, the commands the attacker is running once they are inside the
+honeypot, and what malware the attacker is downloading to the deployed system.
+We demonstrate an experiment to implement a honeypot system that can lure in
+attackers and gather all the information mentioned above. The data collected is
+then thoroughly analyzed and explained to understand all this information. This
+experiment can be recreated and makes use of many open-source tools to
+successfully create a honeypot system.",2022-12-30 20:22:21+00:00,http://arxiv.org/pdf/2301.00045v1
+Optimization-based Sensitivity Analysis for Unmeasured Confounding using Partial Correlations,"Tobias Freidling, Qingyuan Zhao","Causal inference necessarily relies upon untestable assumptions; hence, it is
+crucial to assess the robustness of obtained results to violations of
+identification assumptions. However, such sensitivity analysis is only
+occasionally undertaken in practice, as many existing methods only apply to
+relatively simple models and their results are often difficult to interpret. We
+take a more flexible approach to sensitivity analysis and view it as a
+constrained stochastic optimization problem. This work focuses on sensitivity
+analysis for a linear causal effect when an unmeasured confounder and a
+potential instrument are present. We show how the bias of the OLS and TSLS
+estimands can be expressed in terms of partial correlations. Leveraging the
+algebraic rules that relate different partial correlations, practitioners can
+specify intuitive sensitivity models which bound the bias. We further show that
+the heuristic ""plug-in"" sensitivity interval may not have any confidence
+guarantees; instead, we propose a bootstrap approach to construct sensitivity
+intervals which perform well in numerical simulations. We illustrate the
+proposed methods with a real study on the causal effect of education on
+earnings and provide user-friendly visualization tools.",2022-12-30 20:03:08+00:00,http://arxiv.org/pdf/2301.00040v3
+New Insights on the Stokes Paradox for Flow in Unbounded Domains,"Ingeborg G. Gjerde, Ridgway Scott","Stokes flow equations, used to model creeping flow, are a commonly used
+simplification of the Navier--Stokes equations. The simplification is valid for
+flows where the inertial forces are negligible compared to the viscous forces.
+In infinite domains, this simplification leads to a fundamental paradox.
+  In this work we review the Stokes paradox and present new insights related to
+recent research. We approach the paradox from three different points of view:
+modern functional analysis, numerical simulations, and classical analytic
+techniques. The first approach yields a novel, rigorous derivation of the
+paradox. We also show that relaxing the Stokes no-slip condition (by
+introducing a Navier's friction condition) in one case resolves the Stokes
+paradox but gives rise to d'Alembert's paradox.
+  The Stokes paradox has previously been resolved by Oseen, who showed that it
+is caused by a limited validity of Stokes' approximation. We show that the
+paradox still holds for the Reynolds--Orr equations describing kinetic energy
+flow instability, meaning that flow instability steadily increases with domain
+size. We refer to this as an instability paradox.",2022-12-30 20:00:38+00:00,http://arxiv.org/pdf/2301.00039v1
+"Design of F-16 Airfoil Mock-ups for Supersonic Wind Tunnel: Study, Production, Testing and Validation","N. Eddegdag, A. Naamane, M. Radouani, M. El Gadari","This research paper presents a comprehensive investigation into the behavior
+of viscous supersonic laminar flow and the Shock Wave- Laminar Boundary Layer
+Interaction (SWBLI) around the F-16 laminar NACA 6-series airfoil NACA 64A204.
+The study aims to establish and compare different methods for accurately
+describing these complex phenomena, which are of significant importance in the
+development of advanced aerospace technologies. To achieve this objective, a
+unique approach was adopted, involving the design and production of a mock-up
+F-16 airfoil equipped with pressure taps for use in the supersonic burst wind
+tunnel AF300. The mock-up was then experimentally tested, and the obtained data
+were analysed using numerical simulations with Ansys Fluent and a theoretical
+model based on a previously established analytical SWBLI model. The results
+obtained from the experimental, numerical, and analytical analyses validate the
+designed NACA 64A204 mock-up to a great extent. The study provides valuable
+insights into the physics of viscous supersonic laminar flow and SWBLI,
+contributing to a better understanding of these phenomena. The findings of this
+study will have important applications in the design of high-speed aircraft and
+other advanced aerospace technologies.",2022-12-30 19:41:41+00:00,http://arxiv.org/pdf/2301.01135v3
+Killing Horizons Decohere Quantum Superpositions,"Daine L. Danielson, Gautam Satishchandran, Robert M. Wald","We recently showed that if a massive (or charged) body is put in a quantum
+spatial superposition, the mere presence of a black hole in its vicinity will
+eventually decohere the superposition. In this paper we show that, more
+generally, decoherence of stationary superpositions will occur in any spacetime
+with a Killing horizon. This occurs because, in effect, the long-range field of
+the body is registered on the Killing horizon which, we show, necessitates a
+flux of ""soft horizon gravitons/photons"" through the horizon. The Killing
+horizon thereby harvests ""which path"" information of quantum superpositions and
+will decohere any quantum superposition in a finite time. It is particularly
+instructive to analyze the case of a uniformly accelerating body in a quantum
+superposition in flat spacetime. As we show, from the Rindler perspective the
+superposition is decohered by ""soft gravitons/photons"" that propagate through
+the Rindler horizon with negligible (Rindler) energy. We show that this
+decoherence effect is distinct from--and larger than--the decoherence resulting
+from the presence of Unruh radiation. We further show that from the inertial
+perspective, the decoherence is due to the radiation of high frequency
+(inertial) gravitons/photons to null infinity. (The notion of gravitons/photons
+that propagate through the Rindler horizon is the same notion as that of
+gravitons/photons that propagate to null infinity.) We also analyze the
+decoherence of a spatial superposition due to the presence of a cosmological
+horizon in de Sitter spacetime. We provide estimates of the decoherence time
+for such quantum superpositions in both the Rindler and cosmological cases.
+Although we explicitly treat the case of spacetime dimension $d=4$, our
+analysis applies to any dimension $d \geq 4$.",2022-12-30 19:00:06+00:00,http://arxiv.org/pdf/2301.00026v2
+Subharmonic fidelity revival in a driven PXP model,"HaRu K. Park, SungBin Lee","The PXP model hosts a special set of nonergodic states, referred to as
+quantum many-body scars. One of the consequences of quantum scarring is the
+periodic revival of the wave function fidelity. It has been reported that
+quantum fidelity revival occurs in the PXP model for certain product states,
+and periodic driving of chemical potential can enhance the magnitude of quantum
+revival, and can even change the frequencies of revival showing the subharmonic
+response. Although the effect of the periodic driving in the PXP model has been
+studied in the limit of certain perturbative regimes, the general mechanism of
+such enhanced revival and frequency change has been barely studied. In this
+work, we investigate how periodic driving in the PXP model can systematically
+control the fidelity revival. Particularly, focusing on the product state so
+called a Neel state, we analyze the condition of driving to enhance the
+magnitude of revival or change the frequencies of revival. To clarify the
+reason of such control, we consider the similarities between the PXP model and
+the free spin-1/2 model in graph theoretical analysis, and show that the
+quantum fidelity feature in the PXP model is well explained by the free
+spin-1/2 model. In addition, under certain limit of the driving parameters,
+analytic approach to explain the main features of the fidelity revival is also
+performed. Our results give an insight of the scarring nature of the
+periodically driven PXP model and pave the way to understand their
+(sub-)harmonic responses and controls.",2022-12-30 19:00:01+00:00,http://arxiv.org/pdf/2301.00020v1
+Online Statistical Inference for Contextual Bandits via Stochastic Gradient Descent,"Xi Chen, Zehua Lai, He Li, Yichen Zhang","With the fast development of big data, it has been easier than before to
+learn the optimal decision rule by updating the decision rule recursively and
+making online decisions. We study the online statistical inference of model
+parameters in a contextual bandit framework of sequential decision-making. We
+propose a general framework for online and adaptive data collection environment
+that can update decision rules via weighted stochastic gradient descent. We
+allow different weighting schemes of the stochastic gradient and establish the
+asymptotic normality of the parameter estimator. Our proposed estimator
+significantly improves the asymptotic efficiency over the previous averaged SGD
+approach via inverse probability weights. We also conduct an optimality
+analysis on the weights in a linear regression setting. We provide a Bahadur
+representation of the proposed estimator and show that the remainder term in
+the Bahadur representation entails a slower convergence rate compared to
+classical SGD due to the adaptive data collection.",2022-12-30 18:57:08+00:00,http://arxiv.org/pdf/2212.14883v1
+Pseudogap effects in the strongly correlated regime of the two-dimensional Fermi gas,"S. Ramachandran, S. Jensen, Y. Alhassid","The two-species Fermi gas with attractive short-range interactions in two
+spatial dimensions provides a paradigmatic system for the understanding of
+strongly correlated Fermi superfluids in two dimensions. It is known to exhibit
+a BEC-BCS crossover as a function of $\ln(k_F a)$, where $a$ is the scattering
+length, and to undergo a Berezinskii-Kosterlitz-Thouless superfluid transition
+below a critical temperature $T_c$. However, the extent of a pseudogap regime
+in the strongly correlated regime of $\ln(k_F a)\sim 1$, in which pairing
+correlations persist above $T_c$, remains largely unexplored with controlled
+theoretical methods. Here we use finite-temperature auxiliary-field quantum
+Monte Carlo (AFMC) methods on discrete lattices in the canonical ensemble
+formalism to calculate thermodynamical observables in the strongly correlated
+regime. We extrapolate to continuous time and the continuum limit to eliminate
+systematic errors and present results for particle numbers ranging from $N=42$
+to $N=162$. We estimate $T_c$ by a finite-size scaling analysis, and observe
+clear pseudogap signatures above $T_c$ and below a temperature $T^*$ in both
+the spin susceptibility and free-energy gap. We also present results for the
+contact, a fundamental thermodynamic property of quantum many-body systems with
+short-range interactions.",2022-12-30 18:52:38+00:00,http://arxiv.org/pdf/2212.14880v1
+Reliable and Distributed Network Monitoring via In-band Network Telemetry,"Goksel Simsek, Doğanalp Ergenç, Ertan Onur","Traditional network monitoring solutions usually lack of scalability due to
+their centralized nature collecting heartbeats from all network components via
+a single controller. As a solution, In-Band Network Telemetry (INT) framework
+has been recently proposed to collect network telemetry information more
+autonomously and distributedly by employing programmable switches. However, it
+imposes further challenges to (i) find suitable INT paths to optimize the
+control overhead and information freshness and (ii) ensure reliable delivery of
+control information over multi-hop INT paths. In this work, we propose a
+monitoring scheme, reliable Graph Partitioned INT (GPINT), by extending our
+previous work and integrating shared queue ring (SQR) as a reliability feature
+against potential failures in network telemetry collection due to network
+congestion and link degradation that may cause loss of the visibility of the
+network. We implement our proposal in a recent data plane programming language
+P4, and compare it with traditional Simple Network Management Protocol (SNMP)
+and also another state-of-the-art study employing Euler's method for INT path
+generation. Our analysis first shows the importance of having a data recovery
+mechanism against packet losses under different network conditions. Then, our
+emulation results indicate that GPINT with reliability extension performs much
+better than its opponent in terms of telemetry collection latency and overhead
+monitoring scheme even under a high amount of packet losses.",2022-12-30 18:45:35+00:00,http://arxiv.org/pdf/2212.14876v1
+Comparative Analysis of Clustering Techniques for Personalized Food Kit Distribution,"Jude Francis, Rowan K Baby, Jacob Abraham, Ajmal P. S","The Government of Kerala had increased the frequency of supply of free food
+kits owing to the pandemic, however, these items were static and not indicative
+of the personal preferences of the consumers. This paper conducts a comparative
+analysis of various clustering techniques on a scaled-down version of a
+real-world dataset obtained through a conjoint analysis-based survey.
+Clustering carried out by centroid-based methods such as k means is analyzed
+and the results are plotted along with SVD, and finally, a conclusion is
+reached as to which among the two is better. Once the clusters have been
+formulated, commodities are also decided upon for each cluster. Also,
+clustering is further enhanced by reassignment, based on a specific cluster
+loss threshold. Thus, the most efficacious clustering technique for designing a
+food kit tailored to the needs of individuals is finally obtained.",2022-12-30 18:42:37+00:00,http://arxiv.org/pdf/2212.14874v1
+"Normalized solutions to a class of $(2,q)$-Laplacian equations","Laura Baldelli, Tao Yang","This paper concerns the existence of normalized solutions to a class of
+$(2,q)$-Laplacian equations in all the possible cases according to the value of
+$p$ with respect to the critical exponent $2(1+2/N)$. In the $L^2$-subcritical
+case, we study a global minimization problem and obtain a ground state
+solution. While in the $L^2$-critical case, we prove several nonexistence
+results, extended also in the $L^q$-critical case. At last, we derive a ground
+state and infinitely many radial solutions in the $L^2$-supercritical case.
+Compared with the classical Schr\""{o}dinger equation, the $(2,q)$-Laplacian
+equation possesses a quasi-linear term, which brings in some new difficulties
+and requires a more subtle analysis technique. Moreover, the vector field
+$\vec{a}(\xi)=|\xi|^{q-2}\xi$ corresponding to the $q$-Laplacian is not
+strictly monotone when $q<2$, so we shall consider separately the case $q<2$
+and the case $q>2$.",2022-12-30 18:39:51+00:00,http://arxiv.org/pdf/2212.14873v3
+Depth-First Search performance in a random digraph with geometric outdegree distribution,"Philippe Jacquet, Svante Janson","We present an analysis of the depth-first search algorithm in a random
+digraph model with independent outdegrees having a geometric distribution.
+  The results include asymptotic results for the depth profile of vertices, the
+height (maximum depth) and average depth, the number of trees in the forest,
+the size of the largest and second-largest trees, and the numbers of arcs of
+different types in the depth-first jungle. Most results are first order. For
+the height we show an asymptotic normal distribution.
+  This analysis proposed by Donald Knuth in his next to appear volume of The
+Art of Computer Programming gives interesting insight in one of the most
+elegant and efficient algorithm for graph analysis due to Tarjan.",2022-12-30 18:28:54+00:00,http://arxiv.org/pdf/2212.14865v1
+A class of sparse Johnson--Lindenstrauss transforms and analysis of their extreme singular values,"Kwassi Joseph Dzahini, Stefan M. Wild","The Johnson--Lindenstrauss (JL) lemma is a powerful tool for dimensionality
+reduction in modern algorithm design. The lemma states that any set of
+high-dimensional points in a Euclidean space can be flattened to lower
+dimensions while approximately preserving pairwise Euclidean distances. Random
+matrices satisfying this lemma are called JL transforms (JLTs). Inspired by
+existing $s$-hashing JLTs with exactly $s$ nonzero elements on each column, the
+present work introduces an ensemble of sparse matrices encompassing so-called
+$s$-hashing-like matrices whose expected number of nonzero elements on each
+column is~$s$. The independence of the sub-Gaussian entries of these matrices
+and the knowledge of their exact distribution play an important role in their
+analyses. Using properties of independent sub-Gaussian random variables, these
+matrices are demonstrated to be JLTs, and their smallest and largest singular
+values are estimated non-asymptotically using a technique from geometric
+functional analysis. As the dimensions of the matrix grow to infinity, these
+singular values are proved to converge almost surely to fixed quantities (by
+using the universal Bai--Yin law), and in distribution to the Gaussian
+orthogonal ensemble (GOE) Tracy--Widom law after proper rescalings.
+Understanding the behaviors of extreme singular values is important in general
+because they are often used to define a measure of stability of matrix
+algorithms. For example, JLTs were recently used in derivative-free
+optimization algorithmic frameworks to select random subspaces in which are
+constructed random models or poll directions to achieve scalability, whence
+estimating their smallest singular value in particular helps determine the
+dimension of these subspaces.",2022-12-30 18:19:17+00:00,http://arxiv.org/pdf/2212.14858v3
+Disentangled Explanations of Neural Network Predictions by Finding Relevant Subspaces,"Pattarawat Chormai, Jan Herrmann, Klaus-Robert Müller, Grégoire Montavon","Explainable AI aims to overcome the black-box nature of complex ML models
+like neural networks by generating explanations for their predictions.
+Explanations often take the form of a heatmap identifying input features (e.g.
+pixels) that are relevant to the model's decision. These explanations, however,
+entangle the potentially multiple factors that enter into the overall complex
+decision strategy. We propose to disentangle explanations by extracting at some
+intermediate layer of a neural network, subspaces that capture the multiple and
+distinct activation patterns (e.g. visual concepts) that are relevant to the
+prediction. To automatically extract these subspaces, we propose two new
+analyses, extending principles found in PCA or ICA to explanations. These novel
+analyses, which we call principal relevant component analysis (PRCA) and
+disentangled relevant subspace analysis (DRSA), maximize relevance instead of
+e.g. variance or kurtosis. This allows for a much stronger focus of the
+analysis on what the ML model actually uses for predicting, ignoring
+activations or concepts to which the model is invariant. Our approach is
+general enough to work alongside common attribution techniques such as Shapley
+Value, Integrated Gradients, or LRP. Our proposed methods show to be
+practically useful and compare favorably to the state of the art as
+demonstrated on benchmarks and three use cases.",2022-12-30 18:04:25+00:00,http://arxiv.org/pdf/2212.14855v3
+Complete Description of Measures Corresponding to Abelian Varieties over Finite Fields,"Nikolai S. Nadirashvili, Michael A. Tsfasman","We study probability measures corresponding to families of abelian varieties
+over a finite field. These measures play an important role in the Tsfasman-
+Vladuts theory of asymptotic zeta-functions defining completely the limit
+zeta-function of the family. J.-P.Serre, using results of R.M.Robinson on
+conjugate algebraic integers, described the possible set of measures than can
+correspond to families of abelian varieties over a finite field. The problem
+whether all such measures actually occur was left open. Moreover, Serre
+supposed that not all such measures correspond to abelian varieties (for
+example, the Lebesgue measure on a segment). Here we settle Serre's problem
+proving that Serre conditions are sufficient, and thus describe completely the
+set of measures corresponding to abelian varieties.",2022-12-30 18:02:05+00:00,http://arxiv.org/pdf/2212.14854v2
+Particle method and quantization-based schemes for the simulation of the McKean-Vlasov equation,Yating Liu,"In this paper, we study three numerical schemes for the McKean-Vlasov
+equation \[\begin{cases} \;dX_t=b(t, X_t, \mu_t) \, dt+\sigma(t, X_t, \mu_t) \,
+dB_t,\: \\ \;\forall\, t\in[0,T],\;\mu_t \text{ is the probability distribution
+of }X_t, \end{cases}\] where $X_0$ is a known random variable. Under the
+assumption on the Lipschitz continuity of the coefficients $b$ and $\sigma$,
+our first result proves the convergence rate of the particle method with
+respect to the Wasserstein distance, which extends a previous work [BT97]
+established in one-dimensional setting. In the second part, we present and
+analyse two quantization-based schemes, including the recursive quantization
+scheme (deterministic scheme) in the Vlasov setting, and the hybrid
+particle-quantization scheme (random scheme, inspired by the $K$-means
+clustering). Two examples are simulated at the end of this paper: Burger's
+equation and the network of FitzHugh-Nagumo neurons in dimension 3.",2022-12-30 18:00:49+00:00,http://arxiv.org/pdf/2212.14853v2
+An Analysis of Attention via the Lens of Exchangeability and Latent Variable Models,"Yufeng Zhang, Boyi Liu, Qi Cai, Lingxiao Wang, Zhaoran Wang","With the attention mechanism, transformers achieve significant empirical
+successes. Despite the intuitive understanding that transformers perform
+relational inference over long sequences to produce desirable representations,
+we lack a rigorous theory on how the attention mechanism achieves it. In
+particular, several intriguing questions remain open: (a) What makes a
+desirable representation? (b) How does the attention mechanism infer the
+desirable representation within the forward pass? (c) How does a pretraining
+procedure learn to infer the desirable representation through the backward
+pass?
+  We observe that, as is the case in BERT and ViT, input tokens are often
+exchangeable since they already include positional encodings. The notion of
+exchangeability induces a latent variable model that is invariant to input
+sizes, which enables our theoretical analysis.
+  - To answer (a) on representation, we establish the existence of a sufficient
+and minimal representation of input tokens. In particular, such a
+representation instantiates the posterior distribution of the latent variable
+given input tokens, which plays a central role in predicting output labels and
+solving downstream tasks.
+  - To answer (b) on inference, we prove that attention with the desired
+parameter infers the latent posterior up to an approximation error, which is
+decreasing in input sizes. In detail, we quantify how attention approximates
+the conditional mean of the value given the key, which characterizes how it
+performs relational inference over long sequences.
+  - To answer (c) on learning, we prove that both supervised and
+self-supervised objectives allow empirical risk minimization to learn the
+desired parameter up to a generalization error, which is independent of input
+sizes. Particularly, in the self-supervised setting, we identify a condition
+number that is pivotal to solving downstream tasks.",2022-12-30 17:59:01+00:00,http://arxiv.org/pdf/2212.14852v3
+Some identities on generalized harmonic numbers and generalized harmonic functions,"Dae san Kim, Hye Kyung Kim, Taekyun Kim","The harmonic numbers and generalized harmonic numbers appear frequently in
+many diverse areas such as combinatorial problems, many expressions involving
+special functions in analytic number theory and analysis of algorithms. The aim
+of this paper is to derive some identities involving generalized harmonic
+numbers and generalized harmonic functions from the beta functions F(x)= B(
+x+1, n+1), ( n=0,1,2,..) using elementary methods.",2022-12-30 17:52:46+00:00,http://arxiv.org/pdf/2212.14850v1
+Deterministic counting Lovász local lemma beyond linear programming,"Kun He, Chunyang Wang, Yitong Yin","We give a simple combinatorial algorithm to deterministically approximately
+count the number of satisfying assignments of general constraint satisfaction
+problems (CSPs). Suppose that the CSP has domain size $q=O(1)$, each constraint
+contains at most $k=O(1)$ variables, shares variables with at most
+$\Delta=O(1)$ constraints, and is violated with probability at most $p$ by a
+uniform random assignment. The algorithm returns in polynomial time in an
+improved local lemma regime: \[ q^2\cdot k\cdot p\cdot\Delta^5\le
+C_0\quad\text{for a suitably small absolute constant }C_0. \] Here the key term
+$\Delta^5$ improves the previously best known $\Delta^7$ for general CSPs
+[JPV21b] and $\Delta^{5.714}$ for the special case of $k$-CNF [JPV21a, HSW21].
+Our deterministic counting algorithm is a derandomization of the very recent
+fast sampling algorithm in [HWY22]. It departs substantially from all previous
+deterministic counting Lov\'{a}sz local lemma algorithms which relied on linear
+programming, and gives a deterministic approximate counting algorithm that
+straightforwardly derandomizes a fast sampling algorithm, hence unifying the
+fast sampling and deterministic approximate counting in the same algorithmic
+framework. To obtain the improved regime, in our analysis we develop a
+refinement of the $\{2,3\}$-trees that were used in the previous analyses of
+counting/sampling LLL. Similar techniques can be applied to the previous
+LP-based algorithms to obtain the same improved regime and may be of
+independent interests.",2022-12-30 17:47:43+00:00,http://arxiv.org/pdf/2212.14847v1
+On the covariant Hamilton-Jacobi formulation of Maxwell's equations via the polysymplectic reduction,"Monika E. Pietrzyk, Cécile Barbachoux, Igor V. Kanatchikov, Joseph Kouneiher","The covariant Hamilton-Jacobi formulation of Maxwell's equations is derived
+from the first-order (Palatini-like) Lagrangian using the analysis of
+constraints within the De~Donder-Weyl covariant Hamiltonian formalism and the
+corresponding polysymplectic reduction.",2022-12-30 17:44:44+00:00,http://arxiv.org/pdf/2212.14845v1
+Identities for combinatorial sums involving trigonometric functions,"Horst Alzer, Semyon Yakubovich","Let $$ A_{m,n}(a)=\sum_{j=0}^m (-4)^j {m+j\choose 2j}\sum_{k=0}^{n-1}
+\sin(a+2k\pi/n) \cos^{2j}(a+2k\pi/n) $$ and $$ B_{m,n}(a)=\sum_{j=0}^m (-4)^j
+{m+j+1\choose 2j+1}\sum_{k=0}^{n-1} \sin(a+2k\pi/n) \cos^{2j+1}(a+2k\pi/n), $$
+where $m\geq 0$ and $n\geq 1$ are integers and $a$ is a real number. We present
+two proofs for the following results:
+  (i) If $2m+1 \equiv 0 \, (\mbox{mod} \, n)$, then $$ A_{m,n}(a)=(-1)^m n
+\sin((2m+1)a). $$ (ii) If $2m+1 \not\equiv 0 \, (\mbox{mod} \, n)$, then
+$A_{m,n}(a)=0$.
+  (iii) If $2(m+1) \equiv 0 \, (\mbox{mod} \, n)$, then $$ B_{m,n}(a)=(-1)^m
+\frac{n}{2} \sin(2(m+1)a). $$ (iv) If $2(m+1) \not\equiv 0 \, (\mbox{mod} \,
+n)$, then $B_{m,n}(a)=0$.",2022-12-30 17:40:31+00:00,http://arxiv.org/pdf/2212.14841v1
+Accelerated and Improved Stabilization for High Order Moments of Racah Polynomials,"Basheera M. Mahmmod, Sadiq H. Abdulhussain, Tomáš Suk","One of the most effective orthogonal moments, discrete Racah polynomials
+(DRPs) and their moments are used in many disciplines of sciences, including
+image processing, and computer vision. Moments are the projections of a signal
+on the polynomial basis functions. Racah polynomials were introduced by Wilson
+and modified by Zhu for image processing and they are orthogonal on a discrete
+set of samples. However, when the moment order is high, they experience the
+issue of numerical instability. In this paper, we propose a new algorithm for
+the computation of DRPs coefficients called Improved Stabilization (ImSt). In
+the proposed algorithm, {the DRP plane is partitioned into four parts, which
+are asymmetric because they rely on the values of the polynomial size and the
+DRP parameters.} The logarithmic gamma function is utilized to compute the
+initial values, which empower the computation of the initial value for a wide
+range of DRP parameter values as well as large size of the polynomials. In
+addition, a new formula is used to compute the values of the initial sets based
+on the initial value. Moreover, we optimized the use of the stabilizing
+condition in specific parts of the algorithm. ImSt works for wider range of
+parameters until higher degree than the current algorithms. We compare it with
+the other methods in a number of experiments.",2022-12-30 17:07:26+00:00,http://arxiv.org/pdf/2302.00596v1
+Asymptotic Analysis of Harmonic Maps With Prescribed Singularities,"Qing Han, Marcus Khuri, Gilbert Weinstein, Jingang Xiong","This is the first in a series of two papers to establish the mass-angular
+momentum inequality for multiple black holes. We study singular harmonic maps
+from domains of 3-dimensional Euclidean space to the hyperbolic plane having
+bounded hyperbolic distance to extreme Kerr harmonic maps. We prove that every
+such harmonic map admits a unique tangent harmonic map at the extreme black
+hole horizon. The possible tangent maps are classified and shown to be shifted
+`extreme Kerr' geodesics in the hyperbolic plane that depend on two parameters,
+one determined by angular momentum and another by conical singularities. In
+addition, rates of convergence to the tangent map are established. Similarly,
+expansions in the asymptotically flat end are presented. These results,
+together with those of Li-Tian [24, 25] and Weinstein [35,36], provide a
+complete regularity theory for harmonic maps from $\mathbb R^3\setminus
+z\text{-axis}$ to $\mathbb H^2$ with these prescribed singularities. The
+analysis is additionally utilized to prove existence of the so called near
+horizon limit, and to compute the associated near horizon geometries of extreme
+black holes.",2022-12-30 17:06:37+00:00,http://arxiv.org/pdf/2212.14826v2
+A projection-based reduced-order model for parametric quasi-static nonlinear mechanics using an open-source industrial code,"Eki Agouzal, Jean-Philippe Argaud, Michel Bergmann, Guilhem Ferté, Tommaso Taddei","We propose a projection-based model order reduction procedure for a general
+class of parametric quasi-static problems in nonlinear mechanics with internal
+variables. The methodology is integrated in the industrial finite element code
+code aster. Model order reduction aims to lower the computational cost of
+engineering studies that involve the simulation to a costly high-fidelity
+differential model for many different parameters, which correspond, for example
+to material properties or initial and boundary conditions. We develop an
+adaptive algorithm based on a POD-Greedy strategy, and we develop an
+hyper-reduction strategy based on an element-wise empirical quadrature in order
+to speed up the assembly costs of the reduced-order model by building an
+appropriate reduced mesh. We introduce a cost-efficient error indicator which
+relies on the reconstruction of the stress field by a Gappy-POD strategy. We
+present numerical results for a three-dimensional elastoplastic system in order
+to illustrate and validate the methodology.",2022-12-30 17:05:37+00:00,http://arxiv.org/pdf/2212.14825v1
+Active Learning for Neural Machine Translation,"Neeraj Vashistha, Kriti Singh, Ramakant Shakya","The machine translation mechanism translates texts automatically between
+different natural languages, and Neural Machine Translation (NMT) has gained
+attention for its rational context analysis and fluent translation accuracy.
+However, processing low-resource languages that lack relevant training
+attributes like supervised data is a current challenge for Natural Language
+Processing (NLP). We incorporated a technique known Active Learning with the
+NMT toolkit Joey NMT to reach sufficient accuracy and robust predictions of
+low-resource language translation. With active learning, a semi-supervised
+machine learning strategy, the training algorithm determines which unlabeled
+data would be the most beneficial for obtaining labels using selected query
+techniques. We implemented two model-driven acquisition functions for selecting
+the samples to be validated. This work uses transformer-based NMT systems;
+baseline model (BM), fully trained model (FTM) , active learning least
+confidence based model (ALLCM), and active learning margin sampling based model
+(ALMSM) when translating English to Hindi. The Bilingual Evaluation Understudy
+(BLEU) metric has been used to evaluate system results. The BLEU scores of BM,
+FTM, ALLCM and ALMSM systems are 16.26, 22.56 , 24.54, and 24.20, respectively.
+The findings in this paper demonstrate that active learning techniques helps
+the model to converge early and improve the overall quality of the translation
+system.",2022-12-30 17:04:01+00:00,http://arxiv.org/pdf/2301.00688v1
+eDIG-CHANGES I: Extended Hα Emission from the Extraplanar Diffuse Ionized Gas (eDIG) around CHANG-ES Galaxies,"Li-Yuan Lu, Jiang-Tao Li, Carlos J. Vargas, Rainer Beck, Joel N. Bregman, Ralf-Jurgen Dettmar, Jayanne English, Taotao Fang, George H. Heald, Hui Li, Zhijie Qu, Richard J. Rand, Michael Stein, Q. Daniel Wang, Jing Wang, Theresa Wiegert, Yun Zheng","The extraplanar diffuse ionized gas (eDIG) represents the cool/warm ionized
+gas reservoir around galaxies. We present a spatial analysis of H$\alpha$
+images of 22 nearby edge-on spiral galaxies from the CHANG-ES sample (the
+eDIG-CHANGES project), taken with the APO 3.5m telescope, in order to study
+their eDIG. We conduct an exponential fit to the vertical intensity profiles of
+the sample galaxies, of which 16 can be decomposed into a thin disk plus an
+extended thick disk component. The median value of the scale height (h) of the
+extended component is $1.13\pm 0.14$ kpc. We find a tight sublinear correlation
+between h and the SFR. Moreover, the offset of individual galaxies from the
+best-fit SFR-h relation shows significant anti-correlation with SFR_SD. This
+indicates that galaxies with more intense star formation tend to have
+disproportionately extended eDIG. Combined with data from the literature, we
+find that the correlations between the eDIG properties and the galaxies'
+properties extend to broader ranges. We further compare the vertical extension
+of the eDIG to multi-wavelength measurements of other CGM phases. We find the
+eDIG to be slightly more extended than the neutral gas (HI 21-cm line),
+indicating the existence of some extended ionizing sources. Most galaxies have
+an X-ray scale height smaller than the h, suggesting that the majority of the
+X-ray emission detected in shallow observations are actually from the thick
+disk. The h is comparable to the L-band radio continuum scale height, both
+slightly larger than that at higher frequencies (C-band), where the cooling is
+stronger and the thermal contribution may be larger. The comparable H$\alpha$
+and L-band scale height indicates that the thermal and non-thermal electrons
+have similar spatial distributions. This further indicates that the thermal
+gas, the cosmics rays, and the magnetic field may be close to energy
+equipartition.",2022-12-30 16:59:33+00:00,http://arxiv.org/pdf/2212.14824v1
+Improved discrepancy for the planar Coulomb gas at low temperatures,"Felipe Marceca, José Luis Romero","We study the planar Coulomb gas in the regime where the inverse temperature
+$\beta_n$ grows at least logarithmically with respect to the number of
+particles $n$ (freezing regime, $\beta_n\gtrsim \log n$). We show that, almost
+surely for large $n$, the discrepancy between the number of particles in any
+microscopic region and their expected value (given with adequate precision by
+the equilibrium measure) is, up to log factors, of the order of the perimeter
+of the observation window. The estimates are valid throughout the whole droplet
+(the region where the particles accumulate), and are particularly interesting
+near the boundary, while in the bulk they offer technical improvements over
+known results.
+  Our work builds on recent results on equidistribution at low temperatures and
+improves on them by providing refined spectral asymptotics for certain Toeplitz
+operators on the range of the erfc-kernel (sometimes called Faddeeva or plasma
+dispersion kernel).",2022-12-30 16:50:04+00:00,http://arxiv.org/pdf/2212.14821v3
+Critical values of inner functions,"Oleg Ivrii, Uri Kreitner","Let $\mathscr J$ be the space of inner functions of finite entropy endowed
+with the topology of stable convergence. We prove that an inner function $F \in
+\mathscr J$ possesses a radial limit (and in fact, a minimal fine limit) in the
+unit disk at $\sigma(F')$ a.e. point on the unit circle. We use this to show
+that the singular value measure $\nu(F) = \sum_{c \in \text{crit } F} (1-|c|)
+\cdot \delta_{F(c)} + F_*(\sigma(F'))$ varies continuously in $F$. Our analysis
+involves a surprising connection between Beurling-Carleson sets and angular
+derivatives.",2022-12-30 16:39:27+00:00,http://arxiv.org/pdf/2212.14818v2
+"The 2HD+a model: collider, dark matter and gravitational wave signals","Giorgio Arcadi, Nico Benincasa, Abdelhak Djouadi, Kristjan Kannike","We perform a comprehensive study of a model in which the Higgs sector is
+extended to contain two Higgs doublet fields, with the four types of
+possibilities to couple to standard fermions, as well as an additional light
+pseudoscalar Higgs boson which mixes with the one of the two doublets. This
+2HD+a model includes also a stable isosinglet massive fermion that has the
+correct thermal relic abundance to account for the dark matter in the Universe.
+We summarize the theoretical constraints to which the model is subject and then
+perform a detailed study of the phenomenological constraints. In particular, we
+discuss the bounds from the LHC in the search for light and heavy scalar
+resonances and invisible states and those from high precision measurements in
+the Higgs, electroweak and flavor sectors, addressing the possibility of
+explaining the deviation from the standard expectation of the anomalous
+magnetic moment of the muon and the $W$-boson mass recently observed at
+Fermilab. We also summarize the astrophysical constraints from direct and
+indirect detection dark matter experiments. We finally conduct a thorough
+analysis of the cosmic phase transitions and the gravitational wave spectrum
+that are implied by the model and identify the parameter space in which the
+electroweak vacuum is reached after single and multiple phase transitions. We
+then discuss the prospects for observing the signal of such gravitational waves
+in near future experiments such as LISA, BBO or DECIGO.",2022-12-30 15:53:17+00:00,http://arxiv.org/pdf/2212.14788v2
+Optimal convergence rate for homogenization of convex Hamilton-Jacobi equations in the periodic spatial-temporal environment,Hoang Nguyen-Tien,"We study the optimal convergence rate for homogenization problem of convex
+Hamilton-Jacobi equations when the Hamitonian is periodic with respect to
+spatial and time variables, and notably time-dependent. We prove a result
+similar to that of [8], which means the optimal convergence rate is also
+$O(\varepsilon)$.",2022-12-30 15:39:26+00:00,http://arxiv.org/pdf/2212.14782v1
+BlueCov: Integrating Test Coverage and Model Checking with JBMC,"Matthias Güdemann, Peter Schrammel","Automated test case generation tools help businesses to write tests and
+increase the safety net provided by high regression test coverage when making
+code changes. Test generation needs to cover as much as possible of the
+uncovered code while avoiding generating redundant tests for code that is
+already covered by an existing test-suite.
+  In this paper we present our work on a tool for the real world application of
+integrating formal analysis with automatic test case generation. The test case
+generation is based on coverage analysis using the Java bounded model checker
+(JBMC). Counterexamples of the model checker can be translated into Java method
+calls with specific parameters.
+  In order to avoid the generation of redundant tests, it is necessary to
+measure the coverage in the exact same way as JBMC generates its coverage
+goals. Each existing coverage measurement tool uses a slightly different
+instrumentation and thus a different coverage criterion. This makes integration
+with a test case generator based on formal analysis difficult. Therefore, we
+developed BlueCov as a specific runtime coverage measurement tool which uses
+the exact same coverage criteria as JBMC does. This approach also allows for
+incremental test-case generation, only generating test coverage for previously
+untested code, e.g., to complete existing test suites.",2022-12-30 15:38:45+00:00,http://arxiv.org/pdf/2212.14779v1
+Hybrid Deep Reinforcement Learning and Planning for Safe and Comfortable Automated Driving,"Dikshant Gupta, Mathias Klusch","We present a novel hybrid learning method, HyLEAR, for solving the
+collision-free navigation problem for self-driving cars in POMDPs. HyLEAR
+leverages interposed learning to embed knowledge of a hybrid planner into a
+deep reinforcement learner to faster determine safe and comfortable driving
+policies. In particular, the hybrid planner combines pedestrian path prediction
+and risk-aware path planning with driving-behavior rule-based reasoning such
+that the driving policies also take into account, whenever possible, the ride
+comfort and a given set of driving-behavior rules. Our experimental performance
+analysis over the CARLA-CTS1 benchmark of critical traffic scenarios revealed
+that HyLEAR can significantly outperform the selected baselines in terms of
+safety and ride comfort.",2022-12-30 15:19:01+00:00,http://arxiv.org/pdf/2301.00650v1
+Understanding the Anomalous Hall effect in Co$_{1/3}$NbS$_{2}$ from crystal and magnetic structures,"K. Lu, A. Murzabekova, S. Shim, J. Park, S. Kim, L. Kish, Y. Wu, L. DeBeer-Schmitt, A. A. Aczel, A. Schleife, N. Mason, F. Mahmood, G. J. MacDougall","A large anomalous Hall effect (AHE) has recently been observed in the
+intercalated transition metal dichalcogenide (TMDC) Co$_{1/3}$NbS$_{2}$ below a
+known magnetic phase transition at $T_N$ = 29 K. The spins in this material are
+widely believed to order in a highly symmetric collinear antiferromagnetic
+configuration, causing extensive debate about how reports of an AHE can be
+reconciled with such a state. In this article, we address this controversy by
+presenting new neutron diffraction data on single crystals of
+Co$_{1/3}$NbS$_{2}$ and an analysis that implies that moments in this material
+order into a non-collinear configuration, but one that maintains the same
+refelction symmetries as the collinear phase. We present new transport and
+magneto-optic Kerr measurements which show that AHE signatures persist below
+$T_N$ to temperatures as low as $T$ = 5 K and firmly associate them with the
+long-range antiferromagnetic order. Finally, we show that these AHE signatures
+can be quantitatively reproduced by density functional theory (DFT)
+calculations based on the lattice and spin state determined with neutron
+diffraction. These combined findings establishes the veracity of the 'crystal
+Hall effect' picture, which shows how such effects can emerge from the shape of
+magnetic orbitals in compounds containing chiral lattice symmetry regardless of
+the symmetry of the ordered spin configuration. These results illuminate a new
+path for the discovery of anomalous Hall materials and motivate a targeted
+study of the transport properties of intercalated TMDCs and other compounds
+containing antiferromagnetic order and chiral lattice symmetry.",2022-12-30 15:13:06+00:00,http://arxiv.org/pdf/2212.14762v1
+A bivariate approach to realrootedness of special polynomials,Aurelien Xavier Gribinski,"In this paper, we exhibit new monotonicity properties of roots of families of
+orthogonal polynomials $P_n^{(z)}(x)$ depending polynomially on a parameter
+(Laguerre and Gegenbauer). By establishing that $P_n^{(z)}(x)$ are realrooted
+in $z$ for $x$ in the support of orthogonality, we show realrootedness in $x$
+and interlacing properties of $\partial_z^kP_n^{(z)}(x)$ for $k\leq n$ and $z
+\geq 0$, establishing a dual approach to orthogonality.",2022-12-30 15:07:32+00:00,http://arxiv.org/pdf/2301.00642v4
+Local Regularity of very weak $s$-harmonic functions via fractional difference quotients,"Alessandro Carbotti, Simone Cito, Domenico Angelo La Manna, Diego Pallara","The aim of this paper is to give a new proof that any very weak $s$-harmonic
+function $u$ in the unit ball $B$ is smooth. As a first step, we improve the
+local summability properties of $u$. Then, we exploit a suitable version of the
+difference quotient method tailored to get rid of the singularity of the
+integral kernel and gain Sobolev regularity and local linear estimates of the
+$H^{s}_{\rm loc}$ norm of $u$. Finally, by applying more standard methods, such
+as elliptic regularity and Schauder estimates, we reach real analyticity of
+$u$. Up to the authors' knowledge, the difference quotient techniques are new.",2022-12-30 15:06:20+00:00,http://arxiv.org/pdf/2212.14757v5
+Single pair of type-III Weyl points half-metals: BaNiIO$_6$ as an example,"Guangqian Ding, Jianhua Wang, Zhi-Ming Yu, Zeying Zhang, Wenhong Wang, Xiaotian Wang","The realization of Weyl systems with the minimum nonzero number of Weyl
+points (WPs) and full spin polarization remains challenging in topology physics
+and spintronic. In this study, for the first time, we used first-principle
+calculations and symmetry analysis to demonstrate that BaNiIO$_6$, a
+dynamically and thermodynamically stable half-metallic material, hosts fully
+spin-polarized single-pair WPs (SP-WPs) with a charge number ($\cal{C}$) of
+$\pm$2 and a type-\uppercase\expandafter{\romannumeral3} band dispersion around
+the Fermi level. Moreover, the fully spin-polarized SP-WPs induce
+double-helicoid Fermi arcs on the (10$\overline{1}$0) surface. The
+half-metallic state and the spin-polarized SP-WPs are robust to uniform strains
+(from -10\% to +8\%) and on-site Hubbard-Coulomb interactions (from 0 eV to 6
+eV). When +9 % or +10 % uniform strain is applied to the BaNiIO$_6$ system, it
+hosts six additional type-\uppercase\expandafter{\romannumeral2} WPs with
+$\lvert{\cal{C}}\rvert=1$ in the three-dimensional Brillouin zone in addition
+to the two type-\uppercase\expandafter{\romannumeral3} WPs with
+$\lvert{\cal{C}}\rvert=2$. We hope that this study will motivate future
+research into SP-WPs half-metals.",2022-12-30 14:51:24+00:00,http://arxiv.org/pdf/2212.14751v1
+Superiorization: The asymmetric roles of feasibility-seeking and objective function reduction,Yair Censor,"The superiorization methodology can be thought of as lying conceptually
+between feasibility-seeking and constrained minimization. It is not trying to
+solve the full-fledged constrained minimization problem composed from the
+modeling constraints and the chosen objective function. Rather, the task is to
+find a feasible point which is ""superior"" (in a well-defined manner) with
+respect to the objective function, to one returned by a feasibility-seeking
+only algorithm. We telegraphically review the superiorization methodology and
+where it stands today and propose a rigorous formulation of its, yet only
+partially resolved, guarantee problem. The real-world situation in an
+application field is commonly represented by constraints defined by the
+modeling process and the data, obtained from measurements or otherwise dictated
+by the model-user. The feasibility-seeking problem requires to find a point in
+the intersection of all constraints without using any objective function to aim
+at any specific feasible point. At the heart of the superiorization methodology
+lies the modeler desire to use an objective function, that is exogenous to the
+constraints, in order to seek a feasible solution that will have lower (not
+necessarily minimal) objective function value. This aim is less demanding than
+full-fledged constrained minimization but more demanding than plain
+feasibility-seeking. Putting emphasis on the need to satisfy the constraints,
+because they represent the real-world situation, one recognizes the ""asymmetric
+roles of feasibility-seeking and objective function reduction"", namely, that
+fulfilling the constraints is the main task while reduction of the exogenous
+objective function plays only a secondary role. There are two research
+directions in the superiorization methodology: Weak superiorization and strong
+superiorization.",2022-12-30 14:08:10+00:00,http://arxiv.org/pdf/2212.14724v1
+"Boundary regularity results for minimisers of convex functionals with $(p,q)$-growth","Christopher Irving, Lukas Koch","We prove improved differentiability results for relaxed minimisers of
+vectorial convex functionals with $(p, q)$-growth, satisfying a H\""older-growth
+condition in $x$. We consider both Dirichlet and Neumann boundary data. In
+addition, we obtain a characterisation of regular boundary points for such
+minimisers. In particular, in case of homogeneous boundary conditions, this
+allows us to deduce partial boundary regularity of relaxed minimisers on smooth
+domains for radial integrands. We also obtain some partial boundary regularity
+results for non-homogeneous Neumann boundary conditions.",2022-12-30 14:07:58+00:00,http://arxiv.org/pdf/2212.14723v2
+NISQ-ready community detection based on separation-node identification,"Jonas Stein, Dominik Ott, Jonas Nüßlein, David Bucher, Mirco Schoenfeld, Sebastian Feld","The analysis of network structure is essential to many scientific areas,
+ranging from biology to sociology. As the computational task of clustering
+these networks into partitions, i.e., solving the community detection problem,
+is generally NP-hard, heuristic solutions are indispensable. The exploration of
+expedient heuristics has led to the development of particularly promising
+approaches in the emerging technology of quantum computing. Motivated by the
+substantial hardware demands for all established quantum community detection
+approaches, we introduce a novel QUBO based approach that only needs
+number-of-nodes many qubits and is represented by a QUBO-matrix as sparse as
+the input graph's adjacency matrix. The substantial improvement on the sparsity
+of the QUBO-matrix, which is typically very dense in related work, is achieved
+through the novel concept of separation-nodes. Instead of assigning every node
+to a community directly, this approach relies on the identification of a
+separation-node set, which -- upon its removal from the graph -- yields a set
+of connected components, representing the core components of the communities.
+Employing a greedy heuristic to assign the nodes from the separation-node sets
+to the identified community cores, subsequent experimental results yield a
+proof of concept. This work hence displays a promising approach to NISQ ready
+quantum community detection, catalyzing the application of quantum computers
+for the network structure analysis of large scale, real world problem
+instances.",2022-12-30 13:58:06+00:00,http://arxiv.org/pdf/2212.14717v2
+Foreground Removal of CO Intensity Mapping Using Deep Learning,"Xingchen Zhou, Yan Gong, Furen Deng, Meng Zhang, Bin Yue, Xuelei Chen","Line intensity mapping (LIM) is a promising probe to study star formation,
+the large-scale structure of the Universe, and the epoch of reionization (EoR).
+Since carbon monoxide (CO) is the second most abundant molecule in the Universe
+except for molecular hydrogen ${\rm H}_2$, it is suitable as a tracer for LIM
+surveys. However, just like other LIM surveys, CO intensity mapping also
+suffers strong foreground contamination that needs to be eliminated for
+extracting valuable astrophysical and cosmological information. In this work,
+we take $^{12}$CO($\it J$=1-0) emission line as an example to investigate
+whether deep learning method can effectively recover the signal by removing the
+foregrounds. The CO(1-0) intensity maps are generated by N-body simulations
+considering CO luminosity and halo mass relation, and we discuss two cases with
+median and low CO signals by comparing different relations. We add foregrounds
+generated from real observations, including thermal dust, spinning dust,
+free-free, synchrotron emission and CMB anisotropy. The beam with sidelobe
+effect is also considered. Our deep learning model is built upon ResUNet, which
+combines image generation algorithm UNet with the state-of-the-art architecture
+of deep learning, ResNet. The principal component analysis (PCA) method is
+employed to preprocess data before feeding it to the ResUNet. We find that, in
+the case of low instrumental noise, our UNet can efficiently reconstruct the CO
+signal map with correct line power spectrum by removing the foregrounds and
+recovering PCA signal loss and beam effects. Our method also can be applied to
+other intensity mappings like neutral hydrogen 21cm surveys.",2022-12-30 13:53:50+00:00,http://arxiv.org/pdf/2212.14712v2
+Asymptotic Equipartition Theorems in von Neumann algebras,"Omar Fawzi, Li Gao, Mizanur Rahaman","The Asymptotic Equipartition Property (AEP) in information theory establishes
+that independent and identically distributed (i.i.d.) states behave in a way
+that is similar to uniform states. In particular, with appropriate smoothing,
+for such states both the min and the max relative entropy asymptotically
+coincide with the relative entropy. In this paper, we generalize several such
+equipartition properties to states on general von Neumann algebras.
+  First, we show that the smooth max relative entropy of i.i.d. states on a von
+Neumann algebra has an asymptotic rate given by the quantum relative entropy.
+In fact, our AEP not only applies to states, but also to quantum channels with
+appropriate restrictions. In addition, going beyond the i.i.d. assumption, we
+show that for states that are produced by a sequential process of quantum
+channels, the smooth max relative entropy can be upper bounded by the sum of
+appropriate channel relative entropies.
+  Our main technical contributions are to extend to the context of general von
+Neumann algebras a chain rule for quantum channels, as well as an additivity
+result for the channel relative entropy with a replacer channel.",2022-12-30 13:42:35+00:00,http://arxiv.org/pdf/2212.14700v2
+Image-Coupled Volume Propagation for Stereo Matching,"Oh-Hun Kwon, Eduard Zell","Several leading methods on public benchmarks for depth-from-stereo rely on
+memory-demanding 4D cost volumes and computationally intensive 3D convolutions
+for feature matching. We suggest a new way to process the 4D cost volume where
+we merge two different concepts in one deeply integrated framework to achieve a
+symbiotic relationship. A feature matching part is responsible for identifying
+matching pixels pairs along the baseline while a concurrent image volume part
+is inspired by depth-from-mono CNNs. However, instead of predicting depth
+directly from image features, it provides additional context to resolve
+ambiguities during pixel matching. More technically, the processing of the 4D
+cost volume is separated into a 2D propagation and a 3D propagation part.
+Starting from feature maps of the left image, the 2D propagation assists the 3D
+propagation part of the cost volume at different layers by adding visual
+features to the geometric context. By combining both parts, we can safely
+reduce the scale of 3D convolution layers in the matching part without
+sacrificing accuracy. Experiments demonstrate that our end-to-end trained CNN
+is ranked 2nd on KITTI2012 and ETH3D benchmarks while being significantly
+faster than the 1st-ranked method. Furthermore, we notice that the coupling of
+image and matching-volume improves fine-scale details as demonstrated by our
+qualitative analysis.",2022-12-30 13:23:25+00:00,http://arxiv.org/pdf/2301.00695v1
+An Entropy-Based Model for Hierarchical Learning,Amir R. Asadi,"Machine learning is the dominant approach to artificial intelligence, through
+which computers learn from data and experience. In the framework of supervised
+learning, a necessity for a computer to learn from data accurately and
+efficiently is to be provided with auxiliary information about the data
+distribution and target function through the learning model. This notion of
+auxiliary information relates to the concept of regularization in statistical
+learning theory. A common feature among real-world datasets is that data
+domains are multiscale and target functions are well-behaved and smooth. This
+paper proposes an entropy-based learning model that exploits this data
+structure and discusses its statistical and computational benefits. The
+hierarchical learning model is inspired by human beings' logical and
+progressive easy-to-hard learning mechanism and has interpretable levels. The
+model apportions computational resources according to the complexity of data
+instances and target functions. This property can have multiple benefits,
+including higher inference speed and computational savings in training a model
+for many users or when training is interrupted. We provide a statistical
+analysis of the learning mechanism using multiscale entropies and show that it
+can yield significantly stronger guarantees than uniform convergence bounds.",2022-12-30 13:14:46+00:00,http://arxiv.org/pdf/2212.14681v2
