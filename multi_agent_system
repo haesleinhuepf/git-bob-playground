@@ -1,0 +1,14 @@
+// Multi-Agent System
+digraph {
+	rankdir=TB
+	scheduler [label="Scheduler
+(Task Distribution)" shape=rectangle]
+	assistant [label="Research Assistant
+(Read & Write)" shape=ellipse]
+	reviewer [label="Reviewer
+(Provide Feedback)" shape=ellipse]
+	scheduler -> assistant [label="Assign papers"]
+	assistant -> reviewer [label="Submit draft"]
+	reviewer -> assistant [label="Provide feedback"]
+	assistant -> scheduler [label="Submit final version"]
+}
