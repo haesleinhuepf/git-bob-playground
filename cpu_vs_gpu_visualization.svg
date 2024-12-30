@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Input Image -->
+    <path d="M 180 20 L 220 20 L 230 40 L 170 40 Z" fill="#b0c4de" stroke="black"/>
+    <text x="175" y="35" font-size="12">Input</text>
+    
+    <!-- CPU Column -->
+    <text x="100" y="70" font-size="14" font-weight="bold">CPU</text>
+    <rect x="70" y="100" width="120" height="200" fill="#a0d8ef" stroke="black"/>
+    <text x="90" y="200">Gaussian Blur</text>
+    
+    <!-- GPU Column -->
+    <text x="280" y="70" font-size="14" font-weight="bold">GPU</text>
+    <rect x="250" y="100" width="120" height="80" fill="#ffd700" stroke="black"/>
+    <text x="265" y="145">Transfer to GPU</text>
+    <rect x="250" y="190" width="120" height="40" fill="#98fb98" stroke="black"/>
+    <text x="265" y="215">Gaussian Blur</text>
+    <rect x="250" y="240" width="120" height="80" fill="#ffd700" stroke="black"/>
+    <text x="265" y="285">Transfer to CPU</text>
+    
+    <!-- Output Image -->
+    <path d="M 180 400 L 220 400 L 230 420 L 170 420 Z" fill="#b0c4de" stroke="black"/>
+    <text x="170" y="415" font-size="12">Output</text>
+</svg>
