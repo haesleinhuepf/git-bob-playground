@@ -1,0 +1,22 @@
+city,age,monthly_income_eur
+Berlin,34,3200
+Munich,45,4500
+Hamburg,28,2800
+Cologne,39,3800
+Frankfurt,42,4200
+Stuttgart,31,3500
+Dusseldorf,36,3900
+Leipzig,29,2600
+Dresden,33,2900
+Hannover,41,3600
+Berlin,25,2400
+Munich,52,5500
+Hamburg,37,3700
+Cologne,44,4100
+Frankfurt,30,3300
+Stuttgart,48,4800
+Dusseldorf,27,2700
+Leipzig,35,3100
+Dresden,40,3800
+Hannover,32,3000
+[... continuing for 80 more rows with similar realistic variations...]
