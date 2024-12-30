@@ -1,0 +1,19 @@
+import graphviz
+
+# Create directed graph
+dot = graphviz.Digraph(comment='Multi-Agent System')
+dot.attr(rankdir='TB')
+
+# Add nodes for agents
+dot.node('scheduler', 'Scheduler\n(Task Distribution)', shape='rectangle') 
+dot.node('assistant', 'Research Assistant\n(Read & Write)', shape='ellipse')
+dot.node('reviewer', 'Reviewer\n(Provide Feedback)', shape='ellipse')
+
+# Add edges for interactions
+dot.edge('scheduler', 'assistant', 'Assign 5 papers')
+dot.edge('assistant', 'reviewer', 'Submit draft')
+dot.edge('reviewer', 'assistant', 'Provide feedback')
+dot.edge('assistant', 'scheduler', 'Submit final paper')
+
+# Generate SVG
+dot.render('multi_agent_system', format='svg', cleanup=True)
