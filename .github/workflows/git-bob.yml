@@ -70,6 +70,7 @@ jobs:
         GIT_BOB_LLM_NAME: "${{ secrets.GIT_BOB_LLM_NAME }}"
         OPENAI_API_KEY: "${{ secrets.OPENAI_API_KEY }}"
         MISTRAL_API_KEY: "${{ secrets.MISTRAL_API_KEY }}"
+        HF_TOKEN: "${{ secrets.HF_TOKEN }}"
         GH_MODELS_API_KEY: "${{ secrets.GH_MODELS_API_KEY }}"
         GITHUB_API_KEY: "${{ secrets.GITHUB_TOKEN }}"
         GITHUB_RUN_ID: "${{ github.run_id }}"
