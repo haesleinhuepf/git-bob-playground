@@ -1,0 +1,13 @@
+xml
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect width="100%" height="100%" fill="white" />
+  <!-- First Speech Bubble -->
+  <path d="M 50 50 Q 40 30, 60 30 Q 90 30, 100 50 Q 120 70, 100 90 Q 90 110, 60 110 Q 40 110, 50 90 L 30 100 Z" fill="#DDDDDD" stroke="#CCCCCC" stroke-width="2" />
+  <text x="50" y="70" font-family="Arial" font-size="14" fill="black">Why do programmers</text>
+  <text x="50" y="90" font-family="Arial" font-size="14" fill="black">prefer dark mode?</text>
+  <!-- Second Speech Bubble -->
+  <path d="M 250 150 Q 240 130, 260 130 Q 290 130, 300 150 Q 320 170, 300 190 Q 290 210, 260 210 Q 240 210, 250 190 L 230 200 Z" fill="#EEFFFF" stroke="#BBBBBB" stroke-width="2" />
+  <text x="250" y="170" font-family="Arial" font-size="14" fill="black">Because light</text>
+  <text x="250" y="190" font-family="Arial" font-size="14" fill="black">attracts bugs! 🐛</text>
+</svg>
