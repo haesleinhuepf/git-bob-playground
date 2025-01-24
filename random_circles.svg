@@ -1,6 +1,16 @@
-
-<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
-    <circle cx="150" cy="50" r="30" stroke="black" stroke-width="3" fill="blue" />
-    <circle cx="100" cy="150" r="45" stroke="black" stroke-width="3" fill="green" />
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+    <!-- Main circle -->
+    <circle cx="0" cy="0" r="90" fill="none" stroke="black" stroke-width="2"/>
+    <!-- Random smaller circles -->
+    <circle cx="-45" cy="23" r="10" fill="none" stroke="blue" stroke-width="1"/>
+    <circle cx="12" cy="-67" r="10" fill="none" stroke="blue" stroke-width="1"/>
+    <circle cx="56" cy="34" r="10" fill="none" stroke="blue" stroke-width="1"/>
+    <circle cx="-23" cy="-45" r="10" fill="none" stroke="blue" stroke-width="1"/>
+    <circle cx="34" cy="56" r="10" fill="none" stroke="blue" stroke-width="1"/>
+    <circle cx="-56" cy="-12" r="10" fill="none" stroke="blue" stroke-width="1"/>
+    <circle cx="67" cy="-34" r="10" fill="none" stroke="blue" stroke-width="1"/>
+    <circle cx="0" cy="45" r="10" fill="none" stroke="blue" stroke-width="1"/>
+    <circle cx="-34" cy="-67" r="10" fill="none" stroke="blue" stroke-width="1"/>
+    <circle cx="45" cy="0" r="10" fill="none" stroke="blue" stroke-width="1"/>
 </svg>
