@@ -58,8 +58,8 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
-        git fetch --all
-        git checkout -b make-triggers-extensible origin/make-triggers-extensible
+        #git fetch --all
+        #git checkout -b make-triggers-extensible origin/make-triggers-extensible
         pip install -e .
         cd ..
 
