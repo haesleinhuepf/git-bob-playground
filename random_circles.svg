@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="-120 -120 240 240" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="0" cy="0" r="100" stroke="black" fill="none"/>
+    <circle cx="45" cy="23" r="10" stroke="blue" fill="none"/>
+    <circle cx="-12" cy="67" r="10" stroke="blue" fill="none"/>
+    <circle cx="-54" cy="-32" r="10" stroke="blue" fill="none"/>
+    <circle cx="23" cy="-45" r="10" stroke="blue" fill="none"/>
+    <circle cx="67" cy="-12" r="10" stroke="blue" fill="none"/>
+    <circle cx="-32" cy="-54" r="10" stroke="blue" fill="none"/>
+    <circle cx="-45" cy="23" r="10" stroke="blue" fill="none"/>
+    <circle cx="12" cy="67" r="10" stroke="blue" fill="none"/>
+    <circle cx="54" cy="-32" r="10" stroke="blue" fill="none"/>
+    <circle cx="-23" cy="-45" r="10" stroke="blue" fill="none"/>
+</svg>
