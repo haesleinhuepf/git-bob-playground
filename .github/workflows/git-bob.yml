@@ -59,7 +59,7 @@ jobs:
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
         git fetch --all
-        git checkout -b git-bob-mod-g7MrswIe3W origin/git-bob-mod-g7MrswIe3W
+        git checkout -b make-triggers-extensible origin/make-triggers-extensible
         pip install -e .
         cd ..
 
