@@ -72,6 +72,7 @@ jobs:
         MISTRAL_API_KEY: "${{ secrets.MISTRAL_API_KEY }}"
         HF_TOKEN: "${{ secrets.HF_TOKEN }}"
         GH_MODELS_API_KEY: "${{ secrets.GH_MODELS_API_KEY }}"
+        DEEPSEEK_API_KEY: "${{ secrets.DEEPSEEK_API_KEY }}"
         GITHUB_API_KEY: "${{ secrets.GITHUB_TOKEN }}"
         GITHUB_RUN_ID: "${{ github.run_id }}"
         TWINE_USERNAME: "${{ secrets.TWINE_USERNAME }}"
