@@ -1,0 +1,39 @@
+// Statistical Test Decision Tree
+digraph {
+	rankdir=TB
+	START [label="Data Type?"]
+	CAT [label=Categorical]
+	NUM [label=Numerical]
+	GROUPS2 [label="2 Groups?"]
+	GROUPSN [label=">2 Groups?"]
+	PAIRED [label="Paired?"]
+	NORMAL [label="Normal
+Distribution?"]
+	CHISQ [label="Chi-Square"]
+	FISHER [label="Fisher's
+Exact Test"]
+	ANOVA [label=ANOVA]
+	KW [label="Kruskal-Wallis"]
+	PAIRT [label="Paired t-test"]
+	WILCOX [label="Wilcoxon
+Signed-Rank"]
+	TTEST [label="Unpaired t-test"]
+	MWU [label="Mann-Whitney U"]
+	START -> CAT [label=Categorical]
+	START -> NUM [label=Numerical]
+	CAT -> GROUPS2 [label=Yes]
+	CAT -> GROUPSN [label=No]
+	GROUPS2 -> CHISQ [label=">5 samples"]
+	GROUPS2 -> FISHER [label="<5 samples"]
+	NUM -> GROUPS2 [label="2 groups"]
+	NUM -> GROUPSN [label=">2 groups"]
+	GROUPSN -> ANOVA [label=Normal]
+	GROUPSN -> KW [label="Non-normal"]
+	GROUPS2 -> PAIRED [label=Yes]
+	PAIRED -> NORMAL [label=Yes]
+	NORMAL -> PAIRT [label=Yes]
+	NORMAL -> WILCOX [label=No]
+	PAIRED -> NORMAL [label=No]
+	NORMAL -> TTEST [label=Yes]
+	NORMAL -> MWU [label=No]
+}
