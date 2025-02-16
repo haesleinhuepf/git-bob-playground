@@ -58,8 +58,8 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
-        git fetch --all
-        git checkout -b provider-prefixes origin/provider-prefixes
+        #git fetch --all
+        #git checkout -b provider-prefixes origin/provider-prefixes
         pip install -e .
         cd ..
 
