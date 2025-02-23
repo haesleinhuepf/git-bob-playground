@@ -1,0 +1,6 @@
+Top 5 predictions:
+sewing machine: 0.443
+toaster: 0.240
+iron: 0.132
+soap dispenser: 0.047
+vacuum: 0.033
