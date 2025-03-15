@@ -58,8 +58,8 @@ jobs:
       run: |
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
-        git fetch --all
-        git checkout -b audio origin/audio
+        #git fetch --all
+        #git checkout -b audio origin/audio
         pip install -e .
         cd ..
 
