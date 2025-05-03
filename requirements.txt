@@ -20,3 +20,4 @@ gxformat2
 # planemo
 scholarly 
 crossrefapi
+ome-zarr>=0.8.0
