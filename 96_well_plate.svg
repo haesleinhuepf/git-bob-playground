@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <rect x="50" y="50" width="700" height="500" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Column numbers -->
+    <text x="110" y="35" font-size="14">1</text>
+    <text x="165" y="35" font-size="14">2</text>
+    <text x="220" y="35" font-size="14">3</text>
+    <text x="275" y="35" font-size="14">4</text>
+    <text x="330" y="35" font-size="14">5</text>
+    <text x="385" y="35" font-size="14">6</text>
+    <text x="440" y="35" font-size="14">7</text>
+    <text x="495" y="35" font-size="14">8</text>
+    <text x="550" y="35" font-size="14">9</text>
+    <text x="605" y="35" font-size="14">10</text>
+    <text x="660" y="35" font-size="14">11</text>
+    <text x="715" y="35" font-size="14">12</text>
+
+    <!-- Row letters -->
+    <text x="30" y="100" font-size="14">A</text>
+    <text x="30" y="160" font-size="14">B</text>
+    <text x="30" y="220" font-size="14">C</text>
+    <text x="30" y="280" font-size="14">D</text>
+    <text x="30" y="340" font-size="14">E</text>
+    <text x="30" y="400" font-size="14">F</text>
+    <text x="30" y="460" font-size="14">G</text>
+    <text x="30" y="520" font-size="14">H</text>
+
+    <!-- Wells (96 circles) -->
+    <g id="wells">
+        <circle cx="110" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="165" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="220" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="275" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="330" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="385" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="440" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="495" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="550" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="605" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="660" cy="100" r="20" fill="none" stroke="black"/>
+        <circle cx="715" cy="100" r="20" fill="none" stroke="black"/>
+
+        <circle cx="110" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="165" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="220" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="275" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="330" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="385" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="440" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="495" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="550" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="605" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="660" cy="160" r="20" fill="none" stroke="black"/>
+        <circle cx="715" cy="160" r="20" fill="none" stroke="black"/>
+
+        <circle cx="110" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="165" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="220" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="275" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="330" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="385" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="440" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="495" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="550" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="605" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="660" cy="220" r="20" fill="none" stroke="black"/>
+        <circle cx="715" cy="220" r="20" fill="none" stroke="black"/>
+
+        <circle cx="110" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="165" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="220" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="275" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="330" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="385" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="440" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="495" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="550" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="605" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="660" cy="280" r="20" fill="none" stroke="black"/>
+        <circle cx="715" cy="280" r="20" fill="none" stroke="black"/>
+
+        <circle cx="110" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="165" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="220" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="275" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="330" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="385" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="440" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="495" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="550" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="605" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="660" cy="340" r="20" fill="none" stroke="black"/>
+        <circle cx="715" cy="340" r="20" fill="none" stroke="black"/>
+
+        <circle cx="110" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="165" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="220" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="275" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="330" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="385" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="440" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="495" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="550" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="605" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="660" cy="400" r="20" fill="none" stroke="black"/>
+        <circle cx="715" cy="400" r="20" fill="none" stroke="black"/>
+
+        <circle cx="110" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="165" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="220" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="275" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="330" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="385" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="440" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="495" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="550" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="605" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="660" cy="460" r="20" fill="none" stroke="black"/>
+        <circle cx="715" cy="460" r="20" fill="none" stroke="black"/>
+
+        <circle cx="110" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="165" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="220" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="275" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="330" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="385" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="440" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="495" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="550" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="605" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="660" cy="520" r="20" fill="none" stroke="black"/>
+        <circle cx="715" cy="520" r="20" fill="none" stroke="black"/>
+    </g>
+</svg>
