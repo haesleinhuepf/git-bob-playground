@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Plate outline -->
+    <rect x="100" y="50" width="600" height="400" fill="none" stroke="black" stroke-width="2"/>
+    
+    <!-- Wells -->
+    <g id="wells">
+        <!-- Generate 8 rows (A-H) and 12 columns (1-12) of wells -->
+        <g id="wellGrid">
+            <!-- Script to generate circles and labels -->
+            <script type="text/javascript">
+                <![CDATA[
+                for(let row=0; row<8; row++) {
+                    for(let col=0; col<12; col++) {
+                        let cx = 150 + col*45;
+                        let cy = 100 + row*45;
+                        document.write(`<circle cx="${cx}" cy="${cy}" r="15" fill="none" stroke="black"/>`);
+                        document.write(`<text x="${cx-5}" y="${cy+5}" font-size="12">${String.fromCharCode(65+row)}${col+1}</text>`);
+                    }
+                }
+                ]]>
+            </script>
+        </g>
+    </g>
+    
+    <!-- Row labels (A-H) -->
+    <g id="rowLabels" font-size="14">
+        <text x="80" y="105">A</text>
+        <text x="80" y="150">B</text>
+        <text x="80" y="195">C</text>
+        <text x="80" y="240">D</text>
+        <text x="80" y="285">E</text>
+        <text x="80" y="330">F</text>
+        <text x="80" y="375">G</text>
+        <text x="80" y="420">H</text>
+    </g>
+    
+    <!-- Column labels (1-12) -->
+    <g id="colLabels" font-size="14">
+        <text x="145" y="40">1</text>
+        <text x="190" y="40">2</text>
+        <text x="235" y="40">3</text>
+        <text x="280" y="40">4</text>
+        <text x="325" y="40">5</text>
+        <text x="370" y="40">6</text>
+        <text x="415" y="40">7</text>
+        <text x="460" y="40">8</text>
+        <text x="505" y="40">9</text>
+        <text x="550" y="40">10</text>
+        <text x="595" y="40">11</text>
+        <text x="640" y="40">12</text>
+    </g>
+</svg>
