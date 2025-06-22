@@ -1098,7 +1098,7 @@ public class Tier1 {
     public static ArrayJ meanYProjection(DeviceJ device, ArrayJ input, ArrayJ output) {
         Objects.requireNonNull(device, "device cannot be null");
 		Objects.requireNonNull(input, "input cannot be null");
-        return new ArrayJ(net.clesperanto._internals.kernelj.Tier1.mean_y_projection(device.getRaw(), input.getRaw(), output == null ? null : output.getRaw()), device);
+        return new ArrayJ(net.clesperanto._internals.kernelj.Tier2.mean_y_projection(device.getRaw(), input.getRaw(), output == null ? null : output.getRaw()), device);
     }
 
 	/**
@@ -1113,7 +1113,7 @@ public class Tier1 {
     public static ArrayJ meanZProjection(DeviceJ device, ArrayJ input, ArrayJ output) {
         Objects.requireNonNull(device, "device cannot be null");
 		Objects.requireNonNull(input, "input cannot be null");
-        return new ArrayJ(net.clesperanto._internals.kernelj.Tier1.mean_z_projection(device.getRaw(), input.getRaw(), output == null ? null : output.getRaw()), device);
+        return new ArrayJ(net.clesperanto._internals.kernelj.Tier2.mean_z_projection(device.getRaw(), input.getRaw(), output == null ? null : output.getRaw()), device);
     }
 
 	/**
@@ -2500,3 +2500,4 @@ public class Tier1 {
     }
 
 }
+
