@@ -59,7 +59,7 @@ jobs:
         git clone https://github.com/haesleinhuepf/git-bob.git
         cd git-bob
         git fetch --all
-        git checkout -b other_files origin/other_files
+        git checkout -b edit-mode origin/edit-mode
         pip install -e .
         cd ..
 
