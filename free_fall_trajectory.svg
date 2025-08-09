@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#222"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#d22"/>
+    </marker>
+    <style>
+      .axis{stroke:#222;stroke-width:2;stroke-linecap:round;}
+      .traj{stroke:#0a74da;stroke-width:2;fill:none;}
+      .pt{fill:#0a74da;}
+      text{font-family:Arial, Helvetica, sans-serif; font-size:12px; fill:#222;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="300" fill="#fff"/>
+
+  <!-- Coordinate axes -->
+  <line x1="60" y1="240" x2="360" y2="240" class="axis" marker-end="url(#arrow)"/>
+  <line x1="60" y1="240" x2="60" y2="40" class="axis" marker-end="url(#arrow)"/>
+  <text x="365" y="244">x</text>
+  <text x="50" y="45">y</text>
+  <text x="48" y="255">O</text>
+
+  <!-- Free-fall trajectory (projectile under gravity) -->
+  <path d="M80,80 Q200,180 320,260" class="traj"/>
+  <!-- Equal time points along the trajectory -->
+  <circle cx="80" cy="80" r="3" class="pt"/>
+  <circle cx="140" cy="128.75" r="3" class="pt"/>
+  <circle cx="200" cy="175" r="3" class="pt"/>
+  <circle cx="260" cy="218.75" r="3" class="pt"/>
+  <circle cx="320" cy="260" r="3" class="pt"/>
+
+  <!-- Gravity vector g -->
+  <line x1="340" y1="80" x2="340" y2="160" stroke="#d22" stroke-width="2" marker-end="url(#arrow-red)"/>
+  <text x="347" y="123" fill="#d22">g</text>
+
+  <!-- Labels -->
+  <text x="170" y="95" fill="#0a74da">trajectory</text>
+</svg>
