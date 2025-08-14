@@ -1,0 +1,102 @@
+{
+  "record_id": 15858127,
+  "total_pages": 983,
+  "files": [
+    {
+      "filename": "07_Deep_Learning.pdf",
+      "pages": 84,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/07_Deep_Learning.pdf?download=1",
+      "local_path": "data/zenodo_15858127/07_Deep_Learning.pdf"
+    },
+    {
+      "filename": "06_Sup_Unsup_Machine_Learning.pdf",
+      "pages": 107,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/06_Sup_Unsup_Machine_Learning.pdf?download=1",
+      "local_path": "data/zenodo_15858127/06_Sup_Unsup_Machine_Learning.pdf"
+    },
+    {
+      "filename": "03_Image_segmentation.pdf",
+      "pages": 72,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/03_Image_segmentation.pdf?download=1",
+      "local_path": "data/zenodo_15858127/03_Image_segmentation.pdf"
+    },
+    {
+      "filename": "01_Introduction_BIDS_2025.pdf",
+      "pages": 84,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/01_Introduction_BIDS_2025.pdf?download=1",
+      "local_path": "data/zenodo_15858127/01_Introduction_BIDS_2025.pdf"
+    },
+    {
+      "filename": "02_Image_Processing.pdf",
+      "pages": 67,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/02_Image_Processing.pdf?download=1",
+      "local_path": "data/zenodo_15858127/02_Image_Processing.pdf"
+    },
+    {
+      "filename": "12_Summary_BIDS_2025.pdf",
+      "pages": 86,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/12_Summary_BIDS_2025.pdf?download=1",
+      "local_path": "data/zenodo_15858127/12_Summary_BIDS_2025.pdf"
+    },
+    {
+      "filename": "04_Surface_Reconstruction_Feature_Extraction.pdf",
+      "pages": 73,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/04_Surface_Reconstruction_Feature_Extraction.pdf?download=1",
+      "local_path": "data/zenodo_15858127/04_Surface_Reconstruction_Feature_Extraction.pdf"
+    },
+    {
+      "filename": "05_GPUs_Tiles_QA.pdf",
+      "pages": 86,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/05_GPUs_Tiles_QA.pdf?download=1",
+      "local_path": "data/zenodo_15858127/05_GPUs_Tiles_QA.pdf"
+    },
+    {
+      "filename": "08_LLMs_Intro.pdf",
+      "pages": 80,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/08_LLMs_Intro.pdf?download=1",
+      "local_path": "data/zenodo_15858127/08_LLMs_Intro.pdf"
+    },
+    {
+      "filename": "09_Code_Generation.pdf",
+      "pages": 80,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/09_Code_Generation.pdf?download=1",
+      "local_path": "data/zenodo_15858127/09_Code_Generation.pdf"
+    },
+    {
+      "filename": "11_RDM.pdf",
+      "pages": 85,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/11_RDM.pdf?download=1",
+      "local_path": "data/zenodo_15858127/11_RDM.pdf"
+    },
+    {
+      "filename": "10_MultiModal_LMs.pdf",
+      "pages": 79,
+      "status": "ok",
+      "note": "",
+      "url": "https://zenodo.org/records/15858127/files/10_MultiModal_LMs.pdf?download=1",
+      "local_path": "data/zenodo_15858127/10_MultiModal_LMs.pdf"
+    }
+  ]
+}
