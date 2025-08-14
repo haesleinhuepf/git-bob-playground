@@ -1,0 +1,218 @@
+[
+  {
+    "id": "6439c630-8d0e-44f6-a8ea-aedcd516ecf2",
+    "key": "07_Deep_Learning.pptx",
+    "size": 63021445,
+    "checksum": "md5:fb0089af8690487fcbccec06abae9bc9",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/07_Deep_Learning.pptx/content"
+    }
+  },
+  {
+    "id": "0b4dc7c4-56a8-43d8-9767-5d1bc5c31341",
+    "key": "07_Deep_Learning.pdf",
+    "size": 8288455,
+    "checksum": "md5:bc550ce52c81e5fdac54aaf016ef0460",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/07_Deep_Learning.pdf/content"
+    }
+  },
+  {
+    "id": "fc90fbc3-61ae-44dd-8544-9b513221239b",
+    "key": "06_Sup_Unsup_Machine_Learning.pdf",
+    "size": 8963619,
+    "checksum": "md5:602842bd9d1f79502cd8d780596af403",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/06_Sup_Unsup_Machine_Learning.pdf/content"
+    }
+  },
+  {
+    "id": "559047e0-11a5-4a0f-aaf2-fc4472a95a29",
+    "key": "03_Image_segmentation.pdf",
+    "size": 6946372,
+    "checksum": "md5:a8d9d645bf97f19897fcc60db44c111d",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/03_Image_segmentation.pdf/content"
+    }
+  },
+  {
+    "id": "effd6aa8-862d-4591-889a-3fb1567435f9",
+    "key": "05_GPUs_Tiles_QA.pptx",
+    "size": 81061702,
+    "checksum": "md5:1c4fa9e79ea8039a49303e43f89df57b",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/05_GPUs_Tiles_QA.pptx/content"
+    }
+  },
+  {
+    "id": "39fb6af8-17dd-43d5-9567-f4abc2d524a7",
+    "key": "04_Surface_Reconstruction_Feature_Extraction.pptx",
+    "size": 66421412,
+    "checksum": "md5:33c82a1cac28e2ad4d8546c65bb034ee",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/04_Surface_Reconstruction_Feature_Extraction.pptx/content"
+    }
+  },
+  {
+    "id": "2dce7488-d2ab-4d35-950d-e172b65f1c15",
+    "key": "02_Image_Processing.pptx",
+    "size": 45765628,
+    "checksum": "md5:3e8bb2ea31e6908d323afb32a1c8efbb",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/02_Image_Processing.pptx/content"
+    }
+  },
+  {
+    "id": "056b4d91-ba90-4c4f-8938-4195c3fb47da",
+    "key": "01_Introduction_BIDS_2025.pptx",
+    "size": 254981728,
+    "checksum": "md5:6cd0199f051107ac2ab1a4eab722bd33",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/01_Introduction_BIDS_2025.pptx/content"
+    }
+  },
+  {
+    "id": "f608863d-f712-4e30-9b89-649d38c944fa",
+    "key": "01_Introduction_BIDS_2025.pdf",
+    "size": 5981533,
+    "checksum": "md5:98f32d5d92ee748178078c72727d2c11",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/01_Introduction_BIDS_2025.pdf/content"
+    }
+  },
+  {
+    "id": "46caee09-ee7e-412f-9483-42d878183a01",
+    "key": "02_Image_Processing.pdf",
+    "size": 4661479,
+    "checksum": "md5:408a0b5ba8145a03f45409ae512d8672",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/02_Image_Processing.pdf/content"
+    }
+  },
+  {
+    "id": "342f6ae5-b474-4bfe-aa0a-45fedb0a9fa9",
+    "key": "12_Summary_BIDS_2025.pdf",
+    "size": 4758267,
+    "checksum": "md5:3ed00ad309a9c3202ef99ae6bf7cce22",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/12_Summary_BIDS_2025.pdf/content"
+    }
+  },
+  {
+    "id": "3d55d300-1400-4099-9d2a-c52621be6771",
+    "key": "03_Image_segmentation.pptx",
+    "size": 89200534,
+    "checksum": "md5:26a2605ccc6f8b4e51f1b983e41eafb0",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/03_Image_segmentation.pptx/content"
+    }
+  },
+  {
+    "id": "4d2aa5ad-1522-4f2e-bc4b-e94f93513a60",
+    "key": "04_Surface_Reconstruction_Feature_Extraction.pdf",
+    "size": 5169318,
+    "checksum": "md5:5b81e25c248f92c35c66e8cbbf5333ee",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/04_Surface_Reconstruction_Feature_Extraction.pdf/content"
+    }
+  },
+  {
+    "id": "f81406f2-022f-42d5-995a-f788b7a6e398",
+    "key": "05_GPUs_Tiles_QA.pdf",
+    "size": 6875607,
+    "checksum": "md5:13296934ed0d3e9820847997dec516e5",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/05_GPUs_Tiles_QA.pdf/content"
+    }
+  },
+  {
+    "id": "612f5ac5-9844-400f-bafe-39c2a6791ecb",
+    "key": "06_Sup_Unsup_Machine_Learning.pptx",
+    "size": 47969225,
+    "checksum": "md5:195eb54f8106922e7af773d7fd300b7c",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/06_Sup_Unsup_Machine_Learning.pptx/content"
+    }
+  },
+  {
+    "id": "e8367b7c-31b6-4ea7-ba52-49d8aa6a3621",
+    "key": "08_LLMs_Intro.pdf",
+    "size": 6071907,
+    "checksum": "md5:add7c7d6e68ae066c38d4d880c19d081",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/08_LLMs_Intro.pdf/content"
+    }
+  },
+  {
+    "id": "a9030301-23e3-4ca8-b055-a41b1dafe860",
+    "key": "09_Code_Generation.pptx",
+    "size": 26569288,
+    "checksum": "md5:29789186f78292704fcc02b01da7a350",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/09_Code_Generation.pptx/content"
+    }
+  },
+  {
+    "id": "bc6a77c4-229c-41e9-bda8-78cf59d32e33",
+    "key": "09_Code_Generation.pdf",
+    "size": 5700327,
+    "checksum": "md5:7466104e82788dee030fd5fb7fd39833",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/09_Code_Generation.pdf/content"
+    }
+  },
+  {
+    "id": "218e631f-86d0-4589-bf9f-227d77b1ed56",
+    "key": "08_LLMs_Intro.pptx",
+    "size": 31583258,
+    "checksum": "md5:e4b9b4b6a5b0fd247a1379c2bf446055",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/08_LLMs_Intro.pptx/content"
+    }
+  },
+  {
+    "id": "d6630a6a-4f1b-4074-b9a5-5a36c74437d5",
+    "key": "11_RDM.pptx",
+    "size": 45169096,
+    "checksum": "md5:93fa6a6169c6c39a19b88acc1702a1e3",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/11_RDM.pptx/content"
+    }
+  },
+  {
+    "id": "0f4120d4-76f3-4851-9e7c-345aa0262e2a",
+    "key": "11_RDM.pdf",
+    "size": 8902311,
+    "checksum": "md5:a8b7b0703cc6bdeece43c54952dd03bf",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/11_RDM.pdf/content"
+    }
+  },
+  {
+    "id": "60355471-a8e3-465a-854d-bec33675d845",
+    "key": "10_MultiModal_LMs.pdf",
+    "size": 5608649,
+    "checksum": "md5:5f892cb99bf00548788e450f6ccfc6a4",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/10_MultiModal_LMs.pdf/content"
+    }
+  },
+  {
+    "id": "ccfe8d7a-5646-40a7-bc3e-4e1de63a1434",
+    "key": "10_MultiModal_LMs.pptx",
+    "size": 57315021,
+    "checksum": "md5:41fdcd76f99ac54a9f0cff2dd2fbb2c1",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/10_MultiModal_LMs.pptx/content"
+    }
+  },
+  {
+    "id": "be9423ac-8570-49e5-aee2-92198b6da1bd",
+    "key": "12_Summary_BIDS_2025.pptx",
+    "size": 58933662,
+    "checksum": "md5:11128f180b5717c7801a5dfb700d5205",
+    "links": {
+      "self": "https://zenodo.org/api/records/15858127/files/12_Summary_BIDS_2025.pptx/content"
+    }
+  }
+]
