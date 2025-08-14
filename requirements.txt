@@ -20,3 +20,6 @@ gxformat2
 # planemo
 scholarly 
 crossrefapi
+requests
+pypdf
+
