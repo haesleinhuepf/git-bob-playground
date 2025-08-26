@@ -1,0 +1,4 @@
+word: blueberry
+b (lowercase) count: 2
+B (uppercase) count: 0
+b count (case-insensitive): 2
