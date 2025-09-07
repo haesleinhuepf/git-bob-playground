@@ -6,6 +6,7 @@ stackview
 pandas
 seaborn
 matplotlib
+jupyter
 scipy
 napari-segment-blobs-and-things-with-membranes
 napari-simpleitk-image-processing
