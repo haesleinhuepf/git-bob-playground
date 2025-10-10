@@ -1,0 +1,15 @@
+Placeholder for data tracked with DVC.
+
+Recommended layout:
+- raw/ (immutable sources)
+- interim/ (intermediate artifacts)
+- processed/ (model-ready datasets)
+- external/ (third-party)
+- golden-sample/ (tiny CI slice)
+
+Quick start:
+- dvc add data/raw
+- git add data/raw.dvc .gitignore
+- dvc push
+
+Note: do not commit large binaries to Git; use DVC remotes.
