@@ -18,5 +18,20 @@ odfpy
 scholarly
 gxformat2
 # planemo
-scholarly 
 crossrefapi
+jupyterlab
+hydra-core
+pydantic
+mlflow
+dvc[s3]
+prefect
+fastapi
+uvicorn
+great-expectations
+evidently
+pytest
+black
+isort
+flake8
+mypy
+pre-commit
