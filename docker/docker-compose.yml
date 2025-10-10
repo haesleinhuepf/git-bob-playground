@@ -1,0 +1,69 @@
+version: "3.9"
+
+services:
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio12345
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+    networks:
+      - mlops
+    restart: unless-stopped
+    profiles: ["infra"]
+
+  minio-setup:
+    image: minio/mc:latest
+    depends_on:
+      - minio
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: minio12345
+    entrypoint: ["/bin/sh", "-c"]
+    command: |
+      until mc alias set local http://minio:9000 ${MINIO_ROOT_USER} ${MINIO_ROOT_PASSWORD}; do
+        echo "Waiting for MinIO...";
+        sleep 1;
+      done
+      mc mb -p local/mlflow || true
+    networks:
+      - mlops
+    profiles: ["infra"]
+
+  mlflow:
+    image: python:3.10-slim
+    depends_on:
+      - minio
+      - minio-setup
+    environment:
+      MLFLOW_S3_ENDPOINT_URL: http://minio:9000
+      AWS_ACCESS_KEY_ID: minio
+      AWS_SECRET_ACCESS_KEY: minio12345
+    working_dir: /mlflow
+    volumes:
+      - mlflow_data:/mlflow
+    command: >
+      bash -lc "pip install -q mlflow boto3 &&
+      mlflow server
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri sqlite:////mlflow/mlflow.db
+      --default-artifact-root s3://mlflow"
+    ports:
+      - "5000:5000"
+    networks:
+      - mlops
+    restart: unless-stopped
+    profiles: ["infra"]
+
+networks:
+  mlops:
+
+volumes:
+  minio_data:
+  mlflow_data:
