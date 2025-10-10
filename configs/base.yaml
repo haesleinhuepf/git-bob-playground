@@ -1,0 +1,47 @@
+project:
+  name: mlops-starter
+  seed: 42
+  framework: sklearn
+
+environment:
+  name: dev
+
+paths:
+  data_raw: data/raw
+  data_processed: data/processed
+  artifacts: artifacts
+  models: models
+  reports: reports
+
+data:
+  target: target
+  test_size: 0.2
+  shuffle: true
+  stratify: true
+
+mlflow:
+  tracking_uri: sqlite:///mlflow.db
+  artifact_location: ./mlruns
+  experiment_name: default
+
+dvc:
+  remote: local
+  remote_path: storage/dvc
+
+serving:
+  host: 0.0.0.0
+  port: 8000
+
+orchestration:
+  prefect:
+    enabled: true
+    flow_name: training_pipeline
+
+logging:
+  level: INFO
+
+hydra:
+  job:
+    name: ${project.name}
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
