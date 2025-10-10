@@ -6,3 +6,35 @@ Untitled*
 *__pycache__*
 *egg-info*
 deploy.bat
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.python-version
+
+# Coverage files
+.coverage
+coverage.xml
+
+# Editors/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# DVC data and caches
+data/
+.dvc/cache/
+.dvc/tmp/
+
+# MLflow artifacts
+mlruns/
+
+# Great Expectations local state
+great_expectations/uncommitted/
