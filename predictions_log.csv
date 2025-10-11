@@ -1,0 +1,6 @@
+timestamp,position,streak,correct,predictions
+2025-10-11T21:50:06.273321Z,70,0,0,"[""triangle_green"", ""circle_green"", ""square_green"", ""triangle_green"", ""square_blue"", ""circle_blue"", ""triangle_green"", ""circle_green"", ""triangle_red"", ""circle_green""]"
+2025-10-11T21:50:08.274955Z,90,1,2,"[""square_blue"", ""triangle_blue"", ""square_green"", ""triangle_red"", ""circle_red"", ""square_red"", ""triangle_green"", ""square_green"", ""circle_blue"", ""triangle_blue""]"
+2025-10-11T21:50:10.274084Z,110,0,7,"[""triangle_green"", ""square_blue"", ""circle_blue"", ""triangle_green"", ""circle_green"", ""triangle_red"", ""circle_green"", ""square_red"", ""square_green"", ""circle_blue""]"
+2025-10-11T21:50:12.274637Z,130,1,2,"[""circle_green"", ""square_red"", ""square_green"", ""circle_blue"", ""triangle_blue"", ""square_red"", ""triangle_green"", ""square_green"", ""circle_green"", ""square_blue""]"
+2025-10-11T21:50:14.277917Z,150,0,0,"[""circle_green"", ""square_green"", ""triangle_green"", ""square_blue"", ""circle_blue"", ""triangle_green"", ""circle_green"", ""triangle_red"", ""circle_green"", ""square_red""]"
