@@ -13,3 +13,6 @@ Do not upload any data you cannot share openly. Also, do not enter any private o
 ## Feedback welcome
 
 If you tried git-bob on your own, you also directly provide feedback to the AI-assistant by [opening an issue on its repository](https://github.com/haesleinhuepf/git-bob).
+
+How many b are in blueberry? 2
+
